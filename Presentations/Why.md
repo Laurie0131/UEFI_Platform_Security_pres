@@ -1,3 +1,4 @@
+@image=assets/images/binary-strings-black2.jpg
 @title[Why Platform FW Security is important]
 <br><br><br><br><br><br><br>
 ### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Why?</span>
