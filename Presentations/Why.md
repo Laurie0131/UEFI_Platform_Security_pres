@@ -1,5 +1,6 @@
 
 @title[Why Platform FW Security is important]
+![Section Slide](assets/images/binary-strings-black2.jpg)
 <br><br><br><br><br><br><br>
 ### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Why?</span>
 <span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Why is Platform Firmware Security Important ?</span>
@@ -63,7 +64,7 @@ Firmware needs to be done correctly from the get -go
 @title[Why is Platform Firmware Security Important ? 02]
 <p align="center"><span class="gold" ><b>Why is Platform Firmware Security Important ?</b></span></p>
 
-Note:
+
 
 Note:
 If we think of FW like plumbing
@@ -88,7 +89,7 @@ Firmware needs to be done correctly from the get -go
 @title[Why is Platform Firmware Security Important ? 03]
 <p align="center"><span class="gold" ><b>Why is Platform Firmware Security Important ?</b></span></p>
 
-Note:
+
 
 Note:
 If we think of FW like plumbing
@@ -113,7 +114,7 @@ Firmware needs to be done correctly from the get -go
 @title[Why is Platform Firmware Security Important ? 04]
 <p align="center"><span class="gold" ><b>Why is Platform Firmware Security Important ?</b></span></p>
 
-Note:
+
 
 Note:
 If we think of FW like plumbing
