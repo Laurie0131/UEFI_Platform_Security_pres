@@ -55,14 +55,6 @@ Note:
 ---?include=Presentations/Why.md
 
 
-Note:
--   ;?include=presentations/UEFI_Boot_Flow.md
-
--  ;?include=presentations/SecurityTechnologies.md
-
--   ;?include=presentations/Tools.md
-
-
 ---  
 @title[Summary]
 <BR>
