@@ -686,7 +686,6 @@ Note:
 <br>
 <br>
 <br>
-<br>
 <p align="right"><span style="font-size:0.5em" ><a href="https://cansecwest.com/slides/2013/Evil%20Maid%20Just%20Got%20Angrier.pdf">Source</a>: Evil Maid Just Got Angrier: Why Full-Disk Encryption with TPM is not Secure on Many Systems</span></p>
 
 Note:
@@ -743,7 +742,6 @@ Note:
 <br>
 <br>
 <br>
-<br>
 <p align="right"><span style="font-size:0.5em" ><a href="https://media.blackhat.com/us-13/us-13-Bulygin-A-Tale-of-One-Software-Bypass-of-Windows-8-Secure-Boot-Slides.pdf">Source</a>: A Tale of One Software Bypass of Windows Secure Boot</span></p>
 
 Note:
@@ -766,8 +764,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide38.JPG
 @title[Bypass Software Security – Virtual Machine Manager ]
-<br>
-<p align="right"><span class="gold" ><b>Bypass Software Security – Virtual Machine Manager</b></span></p>
+<p align="right"><span class="gold" ><b>Bypass Software Security <br>– Virtual Machine Manager</b></span></p>
 <br>
 <br>
 <br>
@@ -923,7 +920,7 @@ Note:
 <br>
 <br>
 <br>
-<p align="right"><span style="font-size:0.5em" ><a href="http://www.pcworld.com/article/2884952/equation-cyberspies-use-unrivaled-nsastyle-techniques-to-hit-iran-russia.html">Source</a> : PC World – Destroying your hard drive is the only way<br> to stop this super advanced malware</span></p>
+<p align="right"><span style="font-size:0.5em" ><a href="http://www.pcworld.com/article/2884952/equation-cyberspies-use-unrivaled-nsastyle-techniques-to-hit-iran-russia.html">Source</a> : PC World – Destroying your hard drive is the only<br> way to stop this super advanced malware</span></p>
 
 Note:
 
@@ -964,7 +961,6 @@ Note:
 ---?image=/assets/images/slides/Slide48_1.JPG
 @title[Making System Unbootable (Bricking) ]
 <p align="right"><span class="gold" ><b>Making System Unbootable (Bricking)</b></span></p>
-<br>
 <br>
 <br>
 <br>
