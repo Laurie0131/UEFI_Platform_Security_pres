@@ -1002,7 +1002,9 @@ Note:
 <br>
 <br>
 <br>
-<span style="font-size:0.5em" >There are several Firmware attack methods – and cyber hackers will be continually finding more. We need to be able to recognize where Firmware is vulnerable to help prevent attacks on firmware.<br>In Summary: This section is the “WHY WE ARE HERE”</span>
+
+Note:
+There are several Firmware attack methods – and cyber hackers will be continually finding more. We need to be able to recognize where Firmware is vulnerable to help prevent attacks on firmware.<br>In Summary: This section is the “WHY WE ARE HERE”
 
 
 ---
