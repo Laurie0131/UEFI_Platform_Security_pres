@@ -308,7 +308,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide67.JPG
 @title[What to build & defend – Rationale for a threat model]
-<p align="right"><span class="gold" ><b>What to build & defend – Rationale for a threat model</b></span></p>
+<p align="right"><span class="gold" ><b>What to build & defend <br> – Rationale for a threat model</b></span></p>
 
 Note:
 - https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1 

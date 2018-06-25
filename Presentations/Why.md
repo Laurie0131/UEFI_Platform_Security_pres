@@ -600,7 +600,7 @@ Note:
 ---?image=/assets/images/slides/Slide31.JPG
 @title[Stealth]
 <br>
-<p align="left"><span class="gold" ><b>Stealth</b></span></p>
+#### <p align="left"><span class="gold" ><b>Stealth</b></span></p>
 
 Note:
 
