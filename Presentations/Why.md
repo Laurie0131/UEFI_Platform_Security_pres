@@ -551,8 +551,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide27.JPG
 @title[Why Attack Firmware?]
-<br>
-<p align="left"><span class="gold" ><b>Why Attack Firmware?</b></span></p>
+<p align="center"><span class="gold" ><b>Why Attack Firmware?</b></span></p>
 
 Note:
 - Brick 
@@ -569,8 +568,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide29.JPG
 @title[Extreme Persistence]
-<br>
-<p align="left"><span class="gold" ><b>Extreme Persistence</b></span></p>
+### <p align="right"><span class="gold" ><b>Extreme Persistence</b></span></p>
 
 Note:
 
@@ -621,6 +619,11 @@ Note:
 <!-- .slide: data-transition="none" -->
 @title[Bypass Software Security – Full Disk ]
 <p align="right"><span class="gold" ><b>Bypass Software Security – Full Disk</b></span></p>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -678,7 +681,11 @@ Note:
 <br>
 <br>
 <br>
-<span style="font-size:0.5em" ><a href="https://cansecwest.com/slides/2013/Evil%20Maid%20Just%20Got%20Angrier.pdf">Source</a>: Evil Maid Just Got Angrier: Why Full-Disk Encryption with TPM is not Secure on Many Systems</span>
+<br>
+<br>
+<br>
+<br>
+<p align="right"><span style="font-size:0.5em" ><a href="https://cansecwest.com/slides/2013/Evil%20Maid%20Just%20Got%20Angrier.pdf">Source</a>: Evil Maid Just Got Angrier: Why Full-Disk Encryption with TPM is not Secure on Many Systems</span></p>
 
 Note:
 - Security features like Full-Disk Encryption solutions rely on protections of the underlying firmware and hardware. Often system firmware (BIOS) doesn't use or incorrectly configures protections offered by hardware. 
@@ -729,7 +736,10 @@ Note:
 <br>
 <br>
 <br>
-<span style="font-size:0.5em" ><a href="https://media.blackhat.com/us-13/us-13-Bulygin-A-Tale-of-One-Software-Bypass-of-Windows-8-Secure-Boot-Slides.pdf">Source</a>: A Tale of One Software Bypass of Windows Secure Boot</span>
+<br>
+<br>
+<br>
+<p align="right"><span style="font-size:0.5em" ><a href="https://media.blackhat.com/us-13/us-13-Bulygin-A-Tale-of-One-Software-Bypass-of-Windows-8-Secure-Boot-Slides.pdf">Source</a>: A Tale of One Software Bypass of Windows Secure Boot</span></p>
 
 Note:
 
@@ -751,12 +761,17 @@ Note:
 
 ---?image=/assets/images/slides/Slide38.JPG
 @title[Bypass Software Security – Virtual Machine Manager ]
+<br>
 <p align="right"><span class="gold" ><b>Bypass Software Security – Virtual Machine Manager</b></span></p>
 <br>
 <br>
 <br>
 <br>
-<span style="font-size:0.5em" ><a href="http://www.intelsecurity.com/advanced-threat-research/content/AttackingHypervisorsViaFirmware_bhusa15_dc23.pdf">Source</a>: Attacking Hypervisors via Firmware and Hardware</span>
+<br>
+<br>
+<br>
+<br>
+<p align="right"><span style="font-size:0.5em" ><a href="http://www.intelsecurity.com/advanced-threat-research/content/AttackingHypervisorsViaFirmware_bhusa15_dc23.pdf">Source</a>: Attacking Hypervisors via Firmware and Hardware</span></p>
 
 Note:
 
@@ -895,14 +910,15 @@ Note:
 
 ---?image=/assets/images/slides/Slide44.JPG
 @title[Unfettered Access to Hardware – HDD/SSD ]
+<br>
 <p align="right"><span class="gold" ><b>Unfettered Access to Hardware – HDD/SSD</b></span></p>
 <br>
 <br>
 <br>
 <br>
 <br>
-
-<p align="right"><span style="font-size:0.5em" ><a href="http://www.pcworld.com/article/2884952/equation-cyberspies-use-unrivaled-nsastyle-techniques-to-hit-iran-russia.html">Source</a> : : PC World – Destroying your hard drive is the only way to stop this super advanced malware</span></p>
+<br>
+<p align="right"><span style="font-size:0.5em" ><a href="http://www.pcworld.com/article/2884952/equation-cyberspies-use-unrivaled-nsastyle-techniques-to-hit-iran-russia.html">Source</a> : PC World – Destroying your hard drive is<br> the only way to stop this super advanced malware</span></p>
 
 Note:
 
@@ -949,8 +965,10 @@ Note:
 <br>
 <br>
 <br>
-
-<p align="right"><span style="font-size:0.5em" ><a href="http://www.sophos.com/en-us/press-office/press-releases/1998/06/pr_uk_19980630cih.aspx">Source:</a></span></p>
+<br>
+<br>
+<br>
+<p align="right"><span style="font-size:0.5em" ><a href="http://www.sophos.com/en-us/press-office/press-releases/1998/06/pr_uk_19980630cih.aspx">Source</a> : CIH virus, was first discovered in 1998</span></p>
 
 Note:
 
