@@ -39,8 +39,7 @@ Note:
 ---?image=/assets/images/slides/Slide4.JPG
 <!-- .slide: data-transition="none" -->
 @title[Why is Platform Firmware Security Important ?]
-<br>
-<p align="right"><span class="gold" ><b>Why is Platform Firmware Security Important ?</b></span></p>
+<p align="right"><span class="gold" ><b>Why is Platform Firmware  <br>Security Important ?</b></span></p>
 
 Note:
 
@@ -63,8 +62,7 @@ Firmware needs to be done correctly from the get -go
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Why is Platform Firmware Security Important ? 02]
-<br>
-<p align="right"><span class="gold" ><b>Why is Platform Firmware Security Important ?</b></span></p>
+<p align="right"><span class="gold" ><b>Why is Platform Firmware  <br>Security Important ?</b></span></p>
 
 
 
@@ -89,9 +87,8 @@ Firmware needs to be done correctly from the get -go
 +++?image=/assets/images/slides/Slide6.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
-<br>
 @title[Why is Platform Firmware Security Important ? 03]
-<p align="right"><span class="gold" ><b>Why is Platform Firmware Security Important ?</b></span></p>
+<p align="right"><span class="gold" ><b>Why is Platform Firmware <br> Security Important ?</b></span></p>
 
 
 
@@ -117,8 +114,7 @@ Firmware needs to be done correctly from the get -go
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Why is Platform Firmware Security Important ? 04]
-<br>
-<p align="right"><span class="gold" ><b>Why is Platform Firmware Security Important ?</b></span></p>
+<p align="right"><span class="gold" ><b>Why is Platform Firmware <br>Security Important ?</b></span></p>
 
 
 
