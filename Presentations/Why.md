@@ -1,6 +1,5 @@
 
 @title[Why Platform FW Security is important]
-![Section Slide](assets/images/binary-strings-black2.jpg)
 <br><br><br><br><br><br><br>
 ### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Why?</span>
 <span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Why is Platform Firmware Security Important ?</span>
@@ -40,9 +39,10 @@ Note:
 ---?image=/assets/images/slides/Slide4.JPG
 <!-- .slide: data-transition="none" -->
 @title[Why is Platform Firmware Security Important ?]
-<p align="center"><span class="gold" ><b>Why is Platform Firmware Security Important ?</b></span></p>
+<p align="right"><span class="gold" ><b>Why is Platform Firmware Security Important ?</b></span></p>
 
 Note:
+
 If we think of FW like plumbing
 It needs to  standardized to simplify implementation  (Fitting the pieces of pipe together like standardized plumbing PVC Pipe)
 Where we have the Hardware,  the Firmware,  and then hand off to the OS
@@ -62,11 +62,12 @@ Firmware needs to be done correctly from the get -go
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Why is Platform Firmware Security Important ? 02]
-<p align="center"><span class="gold" ><b>Why is Platform Firmware Security Important ?</b></span></p>
+<p align="right"><span class="gold" ><b>Why is Platform Firmware Security Important ?</b></span></p>
 
 
 
 Note:
+
 If we think of FW like plumbing
 It needs to  standardized to simplify implementation  (Fitting the pieces of pipe together like standardized plumbing PVC Pipe)
 Where we have the Hardware,  the Firmware,  and then hand off to the OS
@@ -87,11 +88,12 @@ Firmware needs to be done correctly from the get -go
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Why is Platform Firmware Security Important ? 03]
-<p align="center"><span class="gold" ><b>Why is Platform Firmware Security Important ?</b></span></p>
+<p align="right"><span class="gold" ><b>Why is Platform Firmware Security Important ?</b></span></p>
 
 
 
 Note:
+
 If we think of FW like plumbing
 It needs to  standardized to simplify implementation  (Fitting the pieces of pipe together like standardized plumbing PVC Pipe)
 Where we have the Hardware,  the Firmware,  and then hand off to the OS
@@ -112,11 +114,12 @@ Firmware needs to be done correctly from the get -go
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Why is Platform Firmware Security Important ? 04]
-<p align="center"><span class="gold" ><b>Why is Platform Firmware Security Important ?</b></span></p>
+<p align="right"><span class="gold" ><b>Why is Platform Firmware Security Important ?</b></span></p>
 
 
 
 Note:
+
 If we think of FW like plumbing
 It needs to  standardized to simplify implementation  (Fitting the pieces of pipe together like standardized plumbing PVC Pipe)
 Where we have the Hardware,  the Firmware,  and then hand off to the OS
