@@ -1013,4 +1013,8 @@ There are several Firmware attack methods – and cyber hackers will be continua
 last slide in separate .md can not have Note:
 
 
+Note:
+There are several Firmware attack methods – and cyber hackers will be continually finding more. We need to be able to recognize where Firmware is vulnerable to help prevent attacks on firmware.<br>In Summary: This section is the “WHY WE ARE HERE”
+
+
 
