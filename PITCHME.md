@@ -52,7 +52,7 @@ Note:
  <li>@fa[certificate gp-bullet-ltgreen]<span style="font-size:0.9em">&nbsp;&nbsp;Tools and resources on how to test<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; firmware for security </span></li>
 </ul>
 
----?include=Presentations/Why.md
+---?include=Presentations/Why.md&image=assets/images/binary-strings-black2.jpg
 
 
 Note:
