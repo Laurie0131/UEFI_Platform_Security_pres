@@ -445,7 +445,6 @@ Note:
 <br>
 <br>
 <br>
-<br>
 <span style="font-size:0.5em" >References: <a href="http://phrack.org/issues/66/7.html"> Persistent BIOS Infection</a> (used <a href="Http://flashrom.org/Flashrom">flashrom </a>
 on legacy BIOS), <a href="https://cansecwest.com/slides/2013/Evil Maid Just Got Angrier.pdf">Evil Maid Just Got Angrier</a>, <a href="https://media.blackhat.com/us-13/US-13-Butterworth-BIOS-Security-Slides.pdf">BIOS Chronomancy</a>, 
 <a href="https://media.blackhat.com/us-13/us-13-Bulygin-A-Tale-of-One-Software-Bypass-of-Windows-8-Secure-Boot-Slides.pdf">A Tale Of One Software Bypass...</a> </span>
@@ -919,8 +918,7 @@ Note:
 <br>
 <br>
 <br>
-<br>
-<p align="right"><span style="font-size:0.8em" >@fa[laugh gp-bullet-white] :-) </span></p>
+<p align="right"><span style="font-size:0.8em" >@fa[smile gp-bullet-white] :-) </span></p>
 Note:
 
 - protect the UEFI BIOS from programmable SPI writes by malware,
