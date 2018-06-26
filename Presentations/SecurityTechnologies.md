@@ -350,7 +350,7 @@ Note:
 
 
 
-+++?image=/assets/images/slides/Slide107.JPG
++++?image=/assets/images/slides/Slide108.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[End to End Platform Integrity ]
@@ -420,7 +420,6 @@ computer leaves the manufacturing floor.
 <br>
 <span style="font-size:0.9em" >Firmware may use SPI flash chips write protection(`WP#`)</span>
 <br>
-<br>
 <span style="font-size:0.9em" >`PR0-PR4` defined in SPI MMIO </span>
 
 Note:
@@ -431,13 +430,37 @@ Note:
 - SPI Protected Range registers
 - Flash Descriptor based access control
 
----
+
+---?image=/assets/images/slides/Slide114_1.JPG
 @title[Lock SPI - BIOS Range is not protected - Threats ]
-<p align="right"><span class="gold" ><b>Lock SPI <br>- BIOS Range is not protected - Threats</b></span></p>
+<p align="right"><span class="gold" ><b>Lock SPI - </b><span style="font-size:0.8em" ><b>BIOS Range is not protected - Threats</b></span></span></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<span style="font-size:0.5em" >References: <a href="http://phrack.org/issues/66/7.html"> Persistent BIOS Infection</a> (used <a href="Http://flashrom.org/Flashrom">flashrom </a>
+on legacy BIOS), <a href="https://cansecwest.com/slides/2013/Evil Maid Just Got Angrier.pdf">Evil Maid Just Got Angrier</a>, <a href="https://media.blackhat.com/us-13/US-13-Butterworth-BIOS-Security-Slides.pdf">BIOS Chronomancy</a>, 
+<a href="https://media.blackhat.com/us-13/us-13-Bulygin-A-Tale-of-One-Software-Bypass-of-Windows-8-Secure-Boot-Slides.pdf">A Tale Of One Software Bypass...</a> </span>
+
+Note:
+What are some threats that can happen to the Flash SPI 
+References:
+http://phrack.org/issues/66/7.html
+Http://flashrom.org/Flashrom 
+https://cansecwest.com/slides/2013/Evil Maid Just Got Angrier.pdf
+https://media.blackhat.com/us-13/US-13-Butterworth-BIOS-Security-Slides.pdf
+https://media.blackhat.com/us-13/us-13-Bulygin-A-Tale-of-One-Software-Bypass-of-Windows-8-Secure-Boot-Slides.pdf
+
++++
+@title[Lock SPI - BIOS Range is not protected - Threats ]
+<p align="right"><span class="gold" ><b>Lock SPI - </b><span style="font-size:0.8em" ><b>BIOS Range is not protected - Threats</b></span></span></p>
 <ul>
-  <li><span style="font-size:0.8em" >BIOS Write Protections often still not properly enabled on many systems</span>  </li>
+  <li><span style="font-size:0.8em" >BIOS Write Protections still not properly enabled on many systems</span>  </li>
   <li><span style="font-size:0.8em" >SMM based write protection of entire BIOS region is often not used: BIOS_CONTROL[SMM_BWP]</span>  </li>
-  <li><span style="font-size:0.8em" >If SPI Protected Ranges (mode agnostic) are used (defined by `PR0-PR4` in SPI MMIO), they often don’t cover entire BIOS & NVRAM</span>  </li>
+  <li><span style="font-size:0.8em" >If SPI Protected Ranges (mode agnostic) are used (defined by `PR0-PR4` in SPI MMIO), often don’t cover entire BIOS & NVRAM</span>  </li>
   <li><span style="font-size:0.8em" >Some platforms use SPI device specific write protection but only for boot block/startup code or SPI Flash descriptor region</span>  </li>
 </ul>
 <span style="font-size:0.9em" >Mitigations: </span>
@@ -450,6 +473,15 @@ Note:
 on legacy BIOS), <a href="https://cansecwest.com/slides/2013/Evil Maid Just Got Angrier.pdf">Evil Maid Just Got Angrier</a>, <a href="https://media.blackhat.com/us-13/US-13-Butterworth-BIOS-Security-Slides.pdf">BIOS Chronomancy</a>, 
 <a href="https://media.blackhat.com/us-13/us-13-Bulygin-A-Tale-of-One-Software-Bypass-of-Windows-8-Secure-Boot-Slides.pdf">A Tale Of One Software Bypass...</a> </span>
 
+Note:
+What are some threats that can happen to the Flash SPI 
+References:
+http://phrack.org/issues/66/7.html
+Http://flashrom.org/Flashrom 
+https://cansecwest.com/slides/2013/Evil Maid Just Got Angrier.pdf
+https://media.blackhat.com/us-13/US-13-Butterworth-BIOS-Security-Slides.pdf
+https://media.blackhat.com/us-13/us-13-Bulygin-A-Tale-of-One-Software-Bypass-of-Windows-8-Secure-Boot-Slides.pdf
+
 
 ---?image=assets/images/gitpitch-audience.jpg
 @title[Firmware Secure Update Sub-section]
@@ -459,8 +491,7 @@ on legacy BIOS), <a href="https://cansecwest.com/slides/2013/Evil Maid Just Got 
 
 
 
-+++?image=/assets/images/slides/Slide115.JPG
-<!-- .slide: data-background-transition="none" -->
+---?image=/assets/images/slides/Slide116.JPG
 <!-- .slide: data-transition="none" -->
 @title[Solving Firmware Update]
 <p align="right"><span class="gold" ><b>Solving Firmware Update</b></span></p>
@@ -491,6 +522,105 @@ Note:
   - Firmware Management Protocol
   - Capsule Signing
 
+  
+
++++?image=/assets/images/slides/Slide117.JPG
+<!-- .slide: data-background-transition="none" -->
+<!-- .slide: data-transition="none" -->
+@title[Solving Firmware Update 02]
+<p align="right"><span class="gold" ><b>Solving Firmware Update</b></span></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<span style="font-size:0.5em" >Reference [6] at : <a href="https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1">UEFI, Open Platforms</a> and <a href=" https://cansecwest.com/slides/2015/UEFI%20open%20platforms_Vincent.pptx">ppt</a></span>
+
+
+
+Note:
+- reference: UEFI open platforms_Vincent.ppt slide 24  - CanSecWest 2015 -  Refrences [6]: https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1
+
+##### Reliable update story
+- Fault tolerant
+- Scalable & repeatable
+##### How can UEFI Help?
+- Capsule model for binary delivery
+- Bus / Device Enumeration
+- Managing updates via 
+  - EFI System Resource Table 
+  - Firmware Management Protocol
+  - Capsule Signing
+
++++?image=/assets/images/slides/Slide118.JPG
+<!-- .slide: data-background-transition="none" -->
+<!-- .slide: data-transition="none" -->
+@title[Solving Firmware Update 03]
+<p align="right"><span class="gold" ><b>Solving Firmware Update</b></span></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<span style="font-size:0.5em" >Reference [6] at : <a href="https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1">UEFI, Open Platforms</a> and <a href=" https://cansecwest.com/slides/2015/UEFI%20open%20platforms_Vincent.pptx">ppt</a></span>
+
+
+
+Note:
+- reference: UEFI open platforms_Vincent.ppt slide 24  - CanSecWest 2015 -  Refrences [6]: https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1
+
+##### Reliable update story
+- Fault tolerant
+- Scalable & repeatable
+##### How can UEFI Help?
+- Capsule model for binary delivery
+- Bus / Device Enumeration
+- Managing updates via 
+  - EFI System Resource Table 
+  - Firmware Management Protocol
+  - Capsule Signing
+  
++++?image=/assets/images/slides/Slide119.JPG
+<!-- .slide: data-background-transition="none" -->
+<!-- .slide: data-transition="none" -->
+@title[Solving Firmware Update 04]
+<p align="right"><span class="gold" ><b>Solving Firmware Update</b></span></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<span style="font-size:0.5em" >Reference [6] at : <a href="https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1">UEFI, Open Platforms</a> and <a href=" https://cansecwest.com/slides/2015/UEFI%20open%20platforms_Vincent.pptx">ppt</a></span>
+
+
+
+Note:
+- reference: UEFI open platforms_Vincent.ppt slide 24  - CanSecWest 2015 -  Refrences [6]: https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1
+
+##### Reliable update story
+- Fault tolerant
+- Scalable & repeatable
+##### How can UEFI Help?
+- Capsule model for binary delivery
+- Bus / Device Enumeration
+- Managing updates via 
+  - EFI System Resource Table 
+  - Firmware Management Protocol
+  - Capsule Signing
+  
+  
 
 ---?image=/assets/images/slides/Slide121.JPG
 <!-- .slide: data-transition="none" -->
@@ -729,8 +859,7 @@ Reference: https://firmware.intel.com/blog/security-technologies-and-minnowboard
          
 ---?image=/assets/images/slides/Slide136.JPG
 @title[Hardware based System Firmware Update]
-<br>
-<p align="left"><span class="gold" ><b>Hardware based System Firmware Update</b></span></p>
+<p align="right"><span class="gold" ><b>Hardware based System Firmware Update</b></span></p>
 		  
 Note:
 - Reference: security-technologies-4th-gen-core-retail-paper.pdf http://www.intel.com/content/dam/www/public/us/en/documents/white-papers/security-technologies-4th-gen-core-retail-paper.pdf 
@@ -784,7 +913,7 @@ Note:
 <br>
 <br>
 <br>
-<p align="right">@fa[grin gp-bullet-gold]</p>
+<p align="right"><span style="font-size:0.8em" >@fa[grin gp-bullet-gold] :-) </span></p>
 Note:
 
 - protect the UEFI BIOS from programmable SPI writes by malware,
