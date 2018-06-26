@@ -180,7 +180,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide63.JPG
 @title[Goals of security architecture and assets that are protected ]
-<p align="right"><span class="gold" ><b>Goals of security architecture and assets that are protected </b></span></p>
+<p align="right"><span class="gold" ><b>Goals of security architecture and assets<br> that are protected </b></span></p>
 <p align="right"><span style="font-size:0.5em" ><a href="http://csrc.nist.gov/publications/nistpubs/800-33/sp800-33.pdf">NIST SP 800-33</a> – IT Security Objectives </span></p>
 
 Note:
@@ -222,7 +222,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Goals of security architecture and assets that are protected  02]
-<p align="right"><span class="gold" ><b>Goals of security architecture and assets that are protected </b></span></p>
+<p align="right"><span class="gold" ><b>Goals of security architecture and assets<br> that are protected </b></span></p>
 <p align="right"><span style="font-size:0.5em" ><a href="http://csrc.nist.gov/publications/nistpubs/800-33/sp800-33.pdf">NIST SP 800-33</a> – IT Security Objectives </span></p>
 
 Note:
@@ -266,7 +266,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Goals of security architecture and assets that are protected  03]
-<p align="right"><span class="gold" ><b>Goals of security architecture and assets that are protected </b></span></p>
+<p align="right"><span class="gold" ><b>Goals of security architecture and assets <br>that are protected </b></span></p>
 <p align="right"><span style="font-size:0.5em" ><a href="http://csrc.nist.gov/publications/nistpubs/800-33/sp800-33.pdf">NIST SP 800-33</a> – IT Security Objectives </span></p>
 
 Note:

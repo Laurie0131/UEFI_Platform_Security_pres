@@ -501,7 +501,7 @@ Note:
 ---?image=/assets/images/slides/Slide25.JPG
 @title[In-the-wild Firmware Attacks]
 <br>
-<p align="left"><span class="gold" ><b>In-the-wild Firmware Attacks</b></span></p>
+<p align="left"><span class="gold" ><b>In-the-wild <br>Firmware Attacks</b></span></p>
 <div class="left1">
 <ul>
   <li><span style="font-size:0.8em" >Legacy Bootkits ( <a href="http://cdn5.esetstatic.com/eset/US/resources/docs/white-papers/white-papers-when-im-x64-bootkit-threat-evolution-2011.pdf">TDL4</a> , <a href="http://www.welivesecurity.com/wp-content/uploads/2013/04/gapz-bootkit-whitepaper.pdf">Gapz</a>. . .)</span>  </li>
@@ -603,6 +603,7 @@ Note:
 #### <p align="left"><span class="gold" ><b>Stealth</b></span></p>
 
 Note:
+#### Is Security Software real protection?
 
 - Stealth CC
 - https://farm1.staticflickr.com/8/7227778_c10e26cb79_o_d.jpg
