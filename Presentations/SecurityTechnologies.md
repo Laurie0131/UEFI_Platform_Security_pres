@@ -446,7 +446,8 @@ Note:
 <br>
 <br>
 <span style="font-size:0.5em" >References: <a href="http://phrack.org/issues/66/7.html"> Persistent BIOS Infection</a> (used <a href="Http://flashrom.org/Flashrom">flashrom </a>
-on legacy BIOS), <a href="https://cansecwest.com/slides/2013/Evil Maid Just Got Angrier.pdf">Evil Maid Just Got Angrier</a>, <a href="https://media.blackhat.com/us-13/US-13-Butterworth-BIOS-Security-Slides.pdf">BIOS Chronomancy</a>, 
+on legacy BIOS), <a href="https://cansecwest.com/slides/2013/Evil Maid Just Got Angrier.pdf">Evil Maid Just Got Angrier</a>,<br> 
+<a href="https://media.blackhat.com/us-13/US-13-Butterworth-BIOS-Security-Slides.pdf">BIOS Chronomancy</a>, 
 <a href="https://media.blackhat.com/us-13/us-13-Bulygin-A-Tale-of-One-Software-Bypass-of-Windows-8-Secure-Boot-Slides.pdf">A Tale Of One Software Bypass...</a> </span>
 
 Note:
@@ -458,33 +459,6 @@ https://cansecwest.com/slides/2013/Evil Maid Just Got Angrier.pdf
 https://media.blackhat.com/us-13/US-13-Butterworth-BIOS-Security-Slides.pdf
 https://media.blackhat.com/us-13/us-13-Bulygin-A-Tale-of-One-Software-Bypass-of-Windows-8-Secure-Boot-Slides.pdf
 
-+++
-@title[Lock SPI - BIOS Range is not protected - Threats ]
-<p align="right"><span class="gold" ><b>Lock SPI - </b><span style="font-size:0.8em" ><b>BIOS Range is not protected - Threats</b></span></span></p>
-<ul>
-  <li><span style="font-size:0.8em" >BIOS Write Protections still not properly enabled on many systems</span>  </li>
-  <li><span style="font-size:0.8em" >SMM based write protection of entire BIOS region is often not used: BIOS_CONTROL[SMM_BWP]</span>  </li>
-  <li><span style="font-size:0.8em" >If SPI Protected Ranges (mode agnostic) are used (defined by `PR0-PR4` in SPI MMIO), often don’t cover entire BIOS & NVRAM</span>  </li>
-  <li><span style="font-size:0.8em" >Some platforms use SPI device specific write protection but only for boot block/startup code or SPI Flash descriptor region</span>  </li>
-</ul>
-<span style="font-size:0.9em" >Mitigations: </span>
-<ul>
-  <li><span style="font-size:0.8em" >Set BIOS_CONTROL[SMM_BWP] `<- 1`</span>  </li>
-  <li><span style="font-size:0.8em" >Program SPI flash protected ranges (`PRx`) to cover BIOS range</span>  </li>
-</ul>
-
-<span style="font-size:0.5em" >References: <a href="http://phrack.org/issues/66/7.html"> Persistent BIOS Infection</a> (used <a href="Http://flashrom.org/Flashrom">flashrom </a>
-on legacy BIOS), <a href="https://cansecwest.com/slides/2013/Evil Maid Just Got Angrier.pdf">Evil Maid Just Got Angrier</a>, <a href="https://media.blackhat.com/us-13/US-13-Butterworth-BIOS-Security-Slides.pdf">BIOS Chronomancy</a>, 
-<a href="https://media.blackhat.com/us-13/us-13-Bulygin-A-Tale-of-One-Software-Bypass-of-Windows-8-Secure-Boot-Slides.pdf">A Tale Of One Software Bypass...</a> </span>
-
-Note:
-What are some threats that can happen to the Flash SPI 
-References:
-http://phrack.org/issues/66/7.html
-Http://flashrom.org/Flashrom 
-https://cansecwest.com/slides/2013/Evil Maid Just Got Angrier.pdf
-https://media.blackhat.com/us-13/US-13-Butterworth-BIOS-Security-Slides.pdf
-https://media.blackhat.com/us-13/us-13-Bulygin-A-Tale-of-One-Software-Bypass-of-Windows-8-Secure-Boot-Slides.pdf
 
 
 ---?image=assets/images/gitpitch-audience.jpg
@@ -918,7 +892,7 @@ Note:
 <br>
 <br>
 <br>
-<p align="right"><span style="font-size:0.8em" >@fa[smile gp-bullet-white] :-) </span></p>
+
 Note:
 
 - protect the UEFI BIOS from programmable SPI writes by malware,
