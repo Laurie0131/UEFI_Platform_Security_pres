@@ -95,8 +95,6 @@ Note:
 <br>
 <br>
 <br>
-<br>
-<br>
 <span style="font-size:0.5em" >References : <a href="https://firmware.intel.com/sites/default/files/resources/Platform_Security_Review_Intel_Cisco_White_Paper.pdf">Platform_Security_Review PDF</a>, <br><a href="http://www.intel.com/content/dam/www/public/us/en/documents/product-briefs/4th-gen-core-family-mobile-brief.pdf">4th-gen-core-family PDF</a></span>
 
 Note:
