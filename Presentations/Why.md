@@ -1,5 +1,5 @@
 
-@title[Why Platform FW Security is important]
+@title[Why Platform FW Security is important Section]
 <br><br><br><br><br><br><br>
 ### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Why?</span>
 <span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Why is Platform Firmware Security Important ?</span>
