@@ -1,7 +1,7 @@
 @title[Security technologies overview Section]
 <br><br><br><br><br><br><br>
 ### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Security Technologies</span>
-<span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Security Technologies Overview ?</span>
+<span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Security Technologies Overview </span>
 
 Note:
   SecurityTechnologies.md for UEFI / EDK II Training  Security technologies overview
@@ -94,7 +94,10 @@ Note:
 <br>
 <br>
 <br>
-<span style="font-size:0.5em" >References : <a href="https://firmware.intel.com/sites/default/files/resources/Platform_Security_Review_Intel_Cisco_White_Paper.pdf">Platform_Security_Review PDF</a>, <a href="http://www.intel.com/content/dam/www/public/us/en/documents/product-briefs/4th-gen-core-family-mobile-brief.pdf">4th-gen-core-family PDF</a></span>
+<br>
+<br>
+<br>
+<span style="font-size:0.5em" >References : <a href="https://firmware.intel.com/sites/default/files/resources/Platform_Security_Review_Intel_Cisco_White_Paper.pdf">Platform_Security_Review PDF</a>, <br><a href="http://www.intel.com/content/dam/www/public/us/en/documents/product-briefs/4th-gen-core-family-mobile-brief.pdf">4th-gen-core-family PDF</a></span>
 
 Note:
 ##### reference:
@@ -433,7 +436,9 @@ Note:
 
 ---?image=/assets/images/slides/Slide114_1.JPG
 @title[Lock SPI - BIOS Range is not protected - Threats ]
-<p align="right"><span class="gold" ><b>Lock SPI - </b><span style="font-size:0.8em" ><b>BIOS Range is not protected - Threats</b></span></span></p>
+<p align="right"><span class="gold" ><b>Lock SPI - </b><span style="font-size:0.9em" ><b>BIOS Range is not protected - Threats</b></span></span></p>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -913,7 +918,9 @@ Note:
 <br>
 <br>
 <br>
-<p align="right"><span style="font-size:0.8em" >@fa[grin gp-bullet-gold] :-) </span></p>
+<br>
+<br>
+<p align="right"><span style="font-size:0.8em" >@fa[laugh gp-bullet-white] :-) </span></p>
 Note:
 
 - protect the UEFI BIOS from programmable SPI writes by malware,
