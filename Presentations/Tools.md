@@ -518,7 +518,7 @@ Note:
 <table id="recTable">
 	<tr>
 		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>Issue</span></b></td>
-		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>CHIPSEC Module&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></span></td>
+		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>CHIPSEC Module</b></span></td>
 		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>References</b></span></td>
 	</tr>
 	<tr>
@@ -528,7 +528,7 @@ Note:
 	</tr>
 	<tr>
 		<td bgcolor="#121212"><span style="font-size:0.56em" >ETC . . .   </span></td>
-		<td bgcolor="#121212"><span style="font-size:0.56em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+		<td bgcolor="#121212"><span style="font-size:0.56em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
 		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" >See <a href="https://github.com/chipsec/chipsec">github.com/chipsec/ </a> </span></p></td>
 	</tr>
 
