@@ -518,7 +518,7 @@ Note:
 <table id="recTable">
 	<tr>
 		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>Issue</span></b></td>
-		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>CHIPSEC Module</b></span></td>
+		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>CHIPSEC Module&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></span></td>
 		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>References</b></span></td>
 	</tr>
 	<tr>
