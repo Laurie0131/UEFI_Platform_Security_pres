@@ -923,7 +923,7 @@ Note:
 <br>
 <br>
 <br>
-<p align="right"><span style="font-size:0.5em" ><a href="http://www.pcworld.com/article/2884952/equation-cyberspies-use-unrivaled-nsastyle-techniques-to-hit-iran-russia.html">Source</a> : PC World – Destroying your hard drive is the only<br> way to stop this super advanced malware</span></p>
+<p style="line-height:50%" align="right"><span style="font-size:0.5em" ><a href="http://www.pcworld.com/article/2884952/equation-cyberspies-use-unrivaled-nsastyle-techniques-to-hit-iran-russia.html">Source</a> : PC World – Destroying your hard drive is the only<br> way to stop this super advanced malware</span></p>
 
 Note:
 
