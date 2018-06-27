@@ -385,9 +385,9 @@ Note:
 <p align="center"><span class="gold" ><b>Known Threats and Chipsec modules</b></span></p>
 <table border="1" width="100%">
 	<tr>
-		<td bgcolor="#0071c5">Issue</td>
-		<td bgcolor="#0071c5">CHIPSEC Module</td>
-		<td bgcolor="#0071c5">References</td>
+		<td bgcolor="#0071c5"><span style="font-size:0.75em" >Issue</span></td>
+		<td bgcolor="#0071c5"><span style="font-size:0.75em" >CHIPSEC Module</span></td>
+		<td bgcolor="#0071c5"><span style="font-size:0.75em" >References</span></td>
 	</tr>
 	<tr>
 		<td><span style="font-size:0.6em" >SMRAM Locking &nbsp;</span></td>
