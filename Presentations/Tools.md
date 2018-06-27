@@ -390,9 +390,9 @@ Note:
 		<td bgcolor="#0071c5">References</td>
 	</tr>
 	<tr>
-		<td>SMRAM Locking &nbsp;</td>
-		<td>common.smm&nbsp;</td>
-		<td>		<a href="http://www.ssi.gouv.fr/archive/fr/sciences/fichiers/lti/cansecwest2006-duflot.pdf">CanSecWest 2006</a>&nbsp;</td>
+		<td><span style="font-size:0.6em" >SMRAM Locking &nbsp;</span></td>
+		<td><span style="font-size:0.6em" >common.smm&nbsp;</span></td>
+		<td><span style="font-size:0.6em" ><a href="http://www.ssi.gouv.fr/archive/fr/sciences/fichiers/lti/cansecwest2006-duflot.pdf">CanSecWest 2006</a>&nbsp;</span></td>
 	</tr>
 	<tr>
 		<td>2&nbsp;</td>
