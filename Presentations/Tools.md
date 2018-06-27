@@ -461,7 +461,8 @@ Source: https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Asse
 
 +++?image=/assets/images/slides/Slide158_1.JPG
 <!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->@title[Known Threats and Chipsec modules]
+<!-- .slide: data-transition="none" -->
+@title[Known Threats and Chipsec modules]
 <p align="center"><span class="gold" ><b>Known Threats and Chipsec modules</b></span></p>
 
 <table id="recTable">
