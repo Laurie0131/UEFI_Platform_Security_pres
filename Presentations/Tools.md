@@ -89,10 +89,9 @@ Note:
     <li><span style="font-size:0.7em" ><b>Excite DBI </b>(Dynamic Binary Instrumentation): Fuzzing using AFL and Intel Pin Tool </span>  </li>
   </ul>
 </ul>
-<ul style="list-style-type:none">
-  <li><span style="font-size:0.5em" >AFL - American Fuzzy Lop (fuzzer)</span></li>
-  <li><span style="font-size:0.5em" >Pin – Intel tool to determine trace</span></li>
-  <li><span style="font-size:0.5em" >CRETE -<a href="https://github.com/SVL-PSU/crete-dev"> github crete-dev</a> </span></li>
+<p style="line-height:40%"><span style="font-size:0.5em" >AFL - American Fuzzy Lop (fuzzer)<br>
+ Pin – Intel tool to determine trace<br>
+ CRETE -<a href="https://github.com/SVL-PSU/crete-dev"> github crete-dev</a> </span></p>
 </ul>
 
 Note:
@@ -157,7 +156,7 @@ Note:
 <br>
 <br>
 
-<span style="font-size:0.5em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Symbolic execution for BIOS security<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.usenix.org/system/files/conference/woot15/woot15-paper-bazhaniuk.pdf">woot15-paper-bazhaniuk PDF </a> </span>
+<p style="line-height:40%"><span style="font-size:0.5em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Symbolic execution for BIOS security<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.usenix.org/system/files/conference/woot15/woot15-paper-bazhaniuk.pdf">woot15-paper-bazhaniuk PDF </a> </span></p>
 </div>
 <div class="right2">
 <span style="font-size:0.8em" > &nbsp;</span> 
@@ -288,13 +287,13 @@ Note:
   </ul>
   <li><span style="font-size:0.8em" ><font color="yellow"><b>Open Source (GPLv2 License)</b></font></span>  </li>
   <ul style="list-style-type:disc">
-    <li><span style="font-size:0.7em" >Released in 2014 – @fa[github gp-bullet-white]<span style="font-size:0.7em"><a href="https://github.com/chipsec/chipsec "> https://github.com/chipsec/chipsec </a></span></span>  </li>
+    <li><span style="font-size:0.7em" >Released in 2014 – @fa[github gp-bullet-white]<span style="font-size:0.7em">&nbsp;<a href="https://github.com/chipsec/chipsec "> https://github.com/chipsec/chipsec </a></span></span>  </li>
     <li><span style="font-size:0.7em" >Currently active community</span>  </li><br>
-    <li><span style="font-size:0.7em" >Top referring sites: </span><span style="font-size:0.6em" >Google, Github, <a href="">pcworld.com</a>, 
+    <li><p style="line-height:40%"><span style="font-size:0.7em" >Top referring sites: </span><span style="font-size:0.6em" >Google, Github, <a href="">pcworld.com</a>, 
 	<a href="">community.spiceworks.com</a>,
 	<a href="">anonhq.com</a>, Twitter, <a href="">securingtomorrow.mcafee.com</a>,
 	<a href="">intelsecurity.com</a>,
-	<a href="">cylance.com</a></span>  </li>
+	<a href="">cylance.com</a></span> </p> </li>
   </ul>
 </ul>
 </div>
