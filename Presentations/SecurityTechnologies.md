@@ -443,8 +443,7 @@ Note:
 <br>
 <br>
 <br>
-<p style="line-height:50%"><span style="font-size:0.5em" >Reference: <br><a href="http://vzimmer.blogspot.com/2013/09/where-do-i-sign-up.html">Where do I 'sign' up?</a></span></p>
-<span style="font-size:0.5em" >References: <a href="http://phrack.org/issues/66/7.html"> Persistent BIOS Infection</a> (used <a href="Http://flashrom.org/Flashrom">flashrom </a>
+<p style="line-height:50%"><span style="font-size:0.5em" >References: <a href="http://phrack.org/issues/66/7.html"> Persistent BIOS Infection</a> (used <a href="Http://flashrom.org/Flashrom">flashrom </a>
 on legacy BIOS), <a href="https://cansecwest.com/slides/2013/Evil Maid Just Got Angrier.pdf">Evil Maid Just Got Angrier</a>,<br> 
 <a href="https://media.blackhat.com/us-13/US-13-Butterworth-BIOS-Security-Slides.pdf">BIOS Chronomancy</a>, 
 <a href="https://media.blackhat.com/us-13/us-13-Bulygin-A-Tale-of-One-Software-Bypass-of-Windows-8-Secure-Boot-Slides.pdf">A Tale Of One Software Bypass...</a> </span></p>
