@@ -395,7 +395,7 @@ Note:
 		<td bgcolor="#829acc"><span style="font-size:0.56em" ><a href="http://www.ssi.gouv.fr/archive/fr/sciences/fichiers/lti/cansecwest2006-duflot.pdf">CanSecWest 2006</a>&nbsp;</span></td>
 	</tr>
 	<tr>
-		<td bgcolor="#324578"><span style="font-size:0.56em" >BIOS Keyboard Buffer Sanitization </span></td>
+		<td bgcolor="#324578"><p style="line-height:80%"><span style="font-size:0.56em" >BIOS Keyboard Buffer Sanitization </span></p></td>
 		<td bgcolor="#324578"><span style="font-size:0.56em" >common.bios_kbrd_buffer </span></td>
 		<td bgcolor="#324578"><span style="font-size:0.56em" ><a href="http://www.slideshare.net/endrazine/defcon-16-bypassing-preboot-authentication-passwords-by-instrumenting-the-bios-keyboard-buffer-practical-low-level-attacks-against-x86-preboot-authentication-software">DEFCON 16 </a> </span></td>
 	</tr>
