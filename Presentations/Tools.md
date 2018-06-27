@@ -561,7 +561,7 @@ Here are some more Details about CHIPSEC
 @title[CHIPSEC Modules ]
 <br>
 <p align="center"><span class="gold" ><b>CHIPSEC Modules </b></span></p>
-<span style="font-size:0.9em" >Modules encapsulate the main functionality of CHIPSEC:</span> 
+<br>
 <ul>
   <li><span style="font-size:0.8em" >All modules reside in `chipsec/modules` directory</span>  </li>
   <li><span style="font-size:0.8em" >Modules can be specific to one or more platforms or common for all supported platforms</span>  </li>
