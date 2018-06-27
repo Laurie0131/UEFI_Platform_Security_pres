@@ -383,7 +383,7 @@ Note:
 ---?image=/assets/images/slides/Slide158_1.JPG
 @title[Known Threats and Chipsec modules]
 <p align="center"><span class="gold" ><b>Known Threats and Chipsec modules</b></span></p>
-<table border="1" width="100%">
+<table id="recTable">
 	<tr>
 		<td bgcolor="#0071c5"><span style="font-size:0.75em" >Issue</span></td>
 		<td bgcolor="#0071c5"><span style="font-size:0.75em" >CHIPSEC Module</span></td>
