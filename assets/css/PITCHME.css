@@ -302,8 +302,8 @@ h6 {
   color: #300a24;
 }
 
-table#recTable{width:100%; border:1px solid red;}
-#recTable tr td {height:40px; border:1px solid red;}
+table#recTable{width:100%; border:1px solid white;}
+#recTable tr td {height:20px; border:1px solid white;}
 
 
 
