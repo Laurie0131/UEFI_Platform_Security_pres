@@ -43,11 +43,11 @@ Note:
 ---?image=/assets/images/slides/Slide173.JPG
 @title[Build a Security Mindset]
 <p align="right"><span class="gold" ><b>Build a Security Mindset</b></span></p>
-<div class="left1">
+<div class="left">
 <br>
 <span style="font-size:0.7em" >“Finding BIOS Vulnerabilities with Symbolic Execution and Virtual Platforms”: <a href="https://software.intel.com/en-us/blogs/2017/06/06/finding-bios-vulnerabilities-with-excite"> Excite Link</a></span>
 </div>
-<div class="right1">
+<div class="right">
 <span style="font-size:0.8em" >&nbsp;</span>
 </div>
 
@@ -128,7 +128,7 @@ Note:
 <ul style="list-style-type:none">
   <li><span style="font-size:0.8em" >Technique of providing variety of invalid, unexpected, or random data as inputs to target code to try to make it misbehave </span>  </li>
   <ul style="list-style-type:disc">
-    <li><span style="font-size:0.8em" >Some inputs are non-intuitive, harder for developers to discover</span>  </li>
+    <li><span style="font-size:0.8em" >Some inputs are non-intuitive, harder for developers to discover</span>  </li><br>
   </ul>
   <li><span style="font-size:0.9em" ><font color="yellow"><b>Why fuzz UEFI?</b></font></span>  </li>
   <ul style="list-style-type:disc">
@@ -255,6 +255,7 @@ Note:
 <br>
 <br>
 <br>
+<br>
 <span style="font-size:0.5em" >Source: <a href="https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Assessment%20wCHIPSEC-csw14-final.pdf">CHIPSEC-csw14 PDF </a></span>
 
 Note:
@@ -346,7 +347,6 @@ Note:
 @title[Sample Issue Discovered]
 <br>
 <p align="center"><span class="gold" ><b>Sample Issue Discovered</b></span></p>
-<br>
 <span style="font-size:01.0em" ><font color="cyan">Is BIOS correctly protected?</font></span>
 <br>
 ```
@@ -365,7 +365,7 @@ Note:
     [15] FLOCKDN          = 0 << Flash Configuration Lock-Down
 	[-] FAILED: SPI Flash Controller configuration is not locked
 ```
-<span style="background-color: #101010"><span style="font-size:0.7em" ><font color="red">`[-] FAILED: SPI Flash Controller configuration is not locked`</font></span></span><br>
+<span style="background-color: #101010"><span style="font-size:0.6em" ><font color="red">`[-] FAILED: SPI Flash Controller configuration is not locked`</font></span></span><br>
 
 Note:
 - The CHIPSEC Test chipsec.modules.common.spi_lock
