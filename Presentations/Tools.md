@@ -390,59 +390,59 @@ Note:
 		<td bgcolor="#0071c5"><span style="font-size:0.75em" >References</span></td>
 	</tr>
 	<tr>
-		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" >SMRAM Locking &nbsp;</span></td>
-		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" >common.smm&nbsp;</span></td>
-		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" ><a href="http://www.ssi.gouv.fr/archive/fr/sciences/fichiers/lti/cansecwest2006-duflot.pdf">CanSecWest 2006</a>&nbsp;</span></td>
+		<td bgcolor="#829acc"><span style="font-size:0.6em" >SMRAM Locking &nbsp;</span></td>
+		<td bgcolor="#829acc"><span style="font-size:0.6em" >common.smm&nbsp;</span></td>
+		<td bgcolor="#829acc"><span style="font-size:0.6em" ><a href="http://www.ssi.gouv.fr/archive/fr/sciences/fichiers/lti/cansecwest2006-duflot.pdf">CanSecWest 2006</a>&nbsp;</span></td>
 	</tr>
 	<tr>
-		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
-		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
-		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#324578"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#324578"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#324578"><span style="font-size:0.6em" > </span></td>
 	</tr>
 	<tr>
-		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
-		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
-		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#829acc"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#829acc"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#829acc"><span style="font-size:0.6em" > </span></td>
 	</tr>
 	<tr>
-		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
-		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
-		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#324578"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#324578"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#324578"><span style="font-size:0.6em" > </span></td>
 	</tr>
 	<tr>
-		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
-		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
-		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#829acc"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#829acc"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#829acc"><span style="font-size:0.6em" > </span></td>
 	</tr>
 	<tr>
-		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
-		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
-		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#324578"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#324578"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#324578"><span style="font-size:0.6em" > </span></td>
 	</tr>
 	<tr>
-		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
-		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
-		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#829acc"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#829acc"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#829acc"><span style="font-size:0.6em" > </span></td>
 	</tr>
 	<tr>
-		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
-		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
-		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#324578"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#324578"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#324578"><span style="font-size:0.6em" > </span></td>
 	</tr>
 	<tr>
-		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
-		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
-		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#829acc"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#829acc"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#829acc"><span style="font-size:0.6em" > </span></td>
 	</tr>
 	<tr>
-		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
-		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
-		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#324578"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#324578"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#324578"><span style="font-size:0.6em" > </span></td>
 	</tr>
 	<tr>
-		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
-		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
-		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#829acc"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#829acc"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#829acc"><span style="font-size:0.6em" > </span></td>
 	</tr>
 </table>
 
