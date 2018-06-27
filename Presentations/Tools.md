@@ -391,9 +391,9 @@ Note:
 		<td bgcolor="#0071c5"><span style="font-size:0.75em" >References</span></td>
 	</tr>
 	<tr>
-		<td bgcolor="#828282"><span style="font-size:0.56em" >SMRAM Locking &nbsp;</span></td>
-		<td bgcolor="#828282"><span style="font-size:0.56em" >common.smm&nbsp;</span></td>
-		<td bgcolor="#828282"><span style="font-size:0.56em" ><a href="http://www.ssi.gouv.fr/archive/fr/sciences/fichiers/lti/cansecwest2006-duflot.pdf">CanSecWest 2006</a>&nbsp;</span></td>
+		<td bgcolor="#424242"><span style="font-size:0.56em" >SMRAM Locking &nbsp;</span></td>
+		<td bgcolor="#424242"><span style="font-size:0.56em" >common.smm&nbsp;</span></td>
+		<td bgcolor="#424242"><span style="font-size:0.56em" ><a href="http://www.ssi.gouv.fr/archive/fr/sciences/fichiers/lti/cansecwest2006-duflot.pdf">CanSecWest 2006</a>&nbsp;</span></td>
 	</tr>
 	<tr>
 		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" >BIOS Keyboard Buffer Sanitization </span></p></td>
