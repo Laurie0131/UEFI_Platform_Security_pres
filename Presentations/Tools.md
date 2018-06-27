@@ -43,9 +43,10 @@ Note:
 ---?image=/assets/images/slides/Slide173.JPG
 @title[Build a Security Mindset]
 <p align="right"><span class="gold" ><b>Build a Security Mindset</b></span></p>
+<br>
 <div class="left">
 <br>
-<span style="font-size:0.7em" >“Finding BIOS Vulnerabilities with Symbolic Execution and Virtual Platforms”: <a href="https://software.intel.com/en-us/blogs/2017/06/06/finding-bios-vulnerabilities-with-excite"> Excite Link</a></span>
+<span style="font-size:0.8em" >“Finding BIOS Vulnerabilities with Symbolic Execution and Virtual Platforms”: <a href="https://software.intel.com/en-us/blogs/2017/06/06/finding-bios-vulnerabilities-with-excite"> Excite Link</a></span>
 </div>
 <div class="right">
 <span style="font-size:0.8em" >&nbsp;</span>
