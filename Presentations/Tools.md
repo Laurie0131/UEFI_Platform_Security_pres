@@ -391,9 +391,9 @@ Note:
 		<td bgcolor="#0071c5"><span style="font-size:0.75em" >References</span></td>
 	</tr>
 	<tr>
-		<td bgcolor="#829acc"><span style="font-size:0.56em" >SMRAM Locking &nbsp;</span></td>
-		<td bgcolor="#829acc"><span style="font-size:0.56em" >common.smm&nbsp;</span></td>
-		<td bgcolor="#829acc"><span style="font-size:0.56em" ><a href="http://www.ssi.gouv.fr/archive/fr/sciences/fichiers/lti/cansecwest2006-duflot.pdf">CanSecWest 2006</a>&nbsp;</span></td>
+		<td bgcolor="#828282"><span style="font-size:0.56em" >SMRAM Locking &nbsp;</span></td>
+		<td bgcolor="#828282"><span style="font-size:0.56em" >common.smm&nbsp;</span></td>
+		<td bgcolor="#828282"><span style="font-size:0.56em" ><a href="http://www.ssi.gouv.fr/archive/fr/sciences/fichiers/lti/cansecwest2006-duflot.pdf">CanSecWest 2006</a>&nbsp;</span></td>
 	</tr>
 	<tr>
 		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" >BIOS Keyboard Buffer Sanitization </span></p></td>
@@ -415,7 +415,7 @@ Note:
 		<a href="http://www.nosuchcon.org/talks/D2_01_Butterworth_BIOS_Chronomancy.pdf">NoSuchCon 2013 </a>, </span></p></td>
 	</tr>
 	<tr>
-		<td bgcolor="#829acc"><span style="font-size:0.56em" >SPI Controller Locking </span></td>
+		<td bgcolor="#829acc"><p style="line-height:40%"><span style="font-size:0.56em" >SPI Controller Locking </span></p></td>
 		<td bgcolor="#829acc"><span style="font-size:0.56em" >common.spi_lock </span></td>
 		<td bgcolor="#829acc"><span style="font-size:0.56em" ><a href="http://www.flashrom.org/">Flashrom </a>, 
 		<a href="http://www.mitre.org/capabilities/cybersecurity/overview/cybersecurity-blog/copernicus-question-your-assumptions-about">Copernicus </a> </span></td>
