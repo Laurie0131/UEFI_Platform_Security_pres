@@ -279,13 +279,12 @@ Note:
 ---?image=/assets/images/slides/Slide158.JPG
 @title[What is CHIPSEC?]
 <p align="center"><span class="gold" ><b>What is CHIPSEC?</b></span></p>
-<br>
 <div class="left2">
 <ul style="list-style-type:none">
   <li><span style="font-size:0.8em" ><font color="yellow"><b>Framework for Platform Security Assessment</b></font></span>  </li>
   <ul style="list-style-type:disc">
     <li><span style="font-size:0.7em" >Tests for known security issues</span>  </li>
-    <li><span style="font-size:0.7em" >Tools for investigation of platform properties</span>  </li>
+    <li><span style="font-size:0.7em" >Tools for investigation of platform properties</span>  </li><br>
   </ul>
   <li><span style="font-size:0.8em" ><font color="yellow"><b>Open Source (GPLv2 License)</b></font></span>  </li>
   <ul style="list-style-type:disc">
@@ -381,7 +380,7 @@ Note:
 
 
 
----
+---?image=/assets/images/slides/Slide158_1.JPG
 @title[Known Threats and Chipsec modules]
 <p align="center"><span class="gold" ><b>Known Threats and Chipsec modules</b></span></p>
 <table border="1" width="100%">
@@ -391,9 +390,9 @@ Note:
 		<td bgcolor="#0071c5">References</td>
 	</tr>
 	<tr>
-		<td>1 tbd&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td>SMRAM Locking &nbsp;</td>
+		<td>common.smm&nbsp;</td>
+		<td>		<a href="http://www.ssi.gouv.fr/archive/fr/sciences/fichiers/lti/cansecwest2006-duflot.pdf">CanSecWest 2006</a>&nbsp;</td>
 	</tr>
 	<tr>
 		<td>2&nbsp;</td>
