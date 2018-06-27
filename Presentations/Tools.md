@@ -396,12 +396,12 @@ Note:
 		<td bgcolor="#829acc"><span style="font-size:0.56em" ><a href="http://www.ssi.gouv.fr/archive/fr/sciences/fichiers/lti/cansecwest2006-duflot.pdf">CanSecWest 2006</a>&nbsp;</span></td>
 	</tr>
 	<tr>
-		<td bgcolor="#324578"><p style="line-height:40%"><span style="font-size:0.56em" >BIOS Keyboard Buffer Sanitization </span></p></td>
-		<td bgcolor="#324578"><span style="font-size:0.56em" >common.bios_kbrd_buffer </span></td>
-		<td bgcolor="#324578"><span style="font-size:0.56em" ><a href="http://www.slideshare.net/endrazine/defcon-16-bypassing-preboot-authentication-passwords-by-instrumenting-the-bios-keyboard-buffer-practical-low-level-attacks-against-x86-preboot-authentication-software">DEFCON 16 </a> </span></td>
+		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" >BIOS Keyboard Buffer Sanitization </span></p></td>
+		<td bgcolor="#323232"><span style="font-size:0.56em" >common.bios_kbrd_buffer </span></td>
+		<td bgcolor="#323232"><span style="font-size:0.56em" ><a href="http://www.slideshare.net/endrazine/defcon-16-bypassing-preboot-authentication-passwords-by-instrumenting-the-bios-keyboard-buffer-practical-low-level-attacks-against-x86-preboot-authentication-software">DEFCON 16 </a> </span></td>
 	</tr>
 	<tr>
-		<td bgcolor="#829acc"><span style="font-size:0.56em" >SMRR Configuration </span></td>
+		<td bgcolor="#829acc"><p style="line-height:40%"><span style="font-size:0.56em" >SMRR Configuration </span></p></td>
 		<td bgcolor="#829acc"><span style="font-size:0.56em" >common.smrr </span></td>
 		<td bgcolor="#829acc"><span style="font-size:0.56em" ><a href="http://www.invisiblethingslab.com/resources/misc09/smm_cache_fun.pdf">ITL 2009 </a> , 
 		<a href="http://cansecwest.com/csw09/csw09-duflot.pdf">CanSecWest 2009 </a> </span></td>
@@ -409,10 +409,10 @@ Note:
 	<tr>
 		<td bgcolor="#324578"><span style="font-size:0.56em" >BIOS Protection </span></td>
 		<td bgcolor="#324578"><span style="font-size:0.56em" >common.bios_wp </span></td>
-		<td bgcolor="#324578"><span style="font-size:0.56em" ><a href="http://www.blackhat.com/presentations/bh-usa-09/WOJTCZUK/BHUSA09-Wojtczuk-AtkIntelBios-SLIDES.pdf">BlackHat USA 2009 </a>,  
+		<td bgcolor="#324578"><p style="line-height:40%"><span style="font-size:0.56em" ><a href="http://www.blackhat.com/presentations/bh-usa-09/WOJTCZUK/BHUSA09-Wojtczuk-AtkIntelBios-SLIDES.pdf">BlackHat USA 2009 </a>,  
 		<a href="https://www.blackhat.com/us-13/briefings.html">CanSecWest 2013 </a>, 
 		<a href="https://www.blackhat.com/us-13/briefings.html">Black Hat 2013 </a>, 
-		<a href="http://www.nosuchcon.org/talks/D2_01_Butterworth_BIOS_Chronomancy.pdf">NoSuchCon 2013 </a>, </span></td>
+		<a href="http://www.nosuchcon.org/talks/D2_01_Butterworth_BIOS_Chronomancy.pdf">NoSuchCon 2013 </a>, </span></p></td>
 	</tr>
 	<tr>
 		<td bgcolor="#829acc"><span style="font-size:0.56em" >SPI Controller Locking </span></td>
