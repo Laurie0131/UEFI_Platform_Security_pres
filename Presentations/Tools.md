@@ -522,7 +522,7 @@ Note:
 		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>References</b></span></td>
 	</tr>
 	<tr>
-		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" >SMI suppression attack </span></p></td>
+		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" >SMI suppression<br> attack </span></p></td>
 		<td bgcolor="#323232"><span style="font-size:0.56em" >common.bios_smi </span></td>
 		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" ><a href="https://www.hackinparis.com/sites/hackinparis.com/files/JohnButterworth.pdf">Setup for Failure: <br>Defeating Secure Boot </a> </span></p></td>
 	</tr>
