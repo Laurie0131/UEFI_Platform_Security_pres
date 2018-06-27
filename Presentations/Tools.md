@@ -45,7 +45,7 @@ Note:
 <p align="right"><span class="gold" ><b>Build a Security Mindset</b></span></p>
 <div class="left1">
 <br>
-<span style="font-size:0.7em" >“Finding BIOS Vulnerabilities with Symbolic Execution and Virtual Platforms” : <a href="https://software.intel.com/en-us/blogs/2017/06/06/finding-bios-vulnerabilities-with-excite"> Excite Link</a></span>
+<span style="font-size:0.7em" >“Finding BIOS Vulnerabilities with Symbolic Execution and Virtual Platforms”: <a href="https://software.intel.com/en-us/blogs/2017/06/06/finding-bios-vulnerabilities-with-excite"> Excite Link</a></span>
 </div>
 <div class="right1">
 <span style="font-size:0.8em" >&nbsp;</span>
@@ -80,7 +80,7 @@ Note:
   </ul>
   <li><span style="font-size:0.8em" ><font color="yellow">Aproach</font></span>  </li>
   <ul style="list-style-type:disc">
-    <li><span style="font-size:0.7em" >Apply open source fuzzing & symbolic execution tools to Intel Architecture binaries</span>  </li>
+    <li><span style="font-size:0.7em" >Apply open source <b>fuzzing & symbolic execution</b> tools to Intel Architecture binaries</span>  </li>
   </ul>
   <li><span style="font-size:0.8em" ><font color="yellow">Versions</font></span>  </li>
   <ul style="list-style-type:disc">
@@ -130,7 +130,7 @@ Note:
   <ul style="list-style-type:disc">
     <li><span style="font-size:0.8em" >Some inputs are non-intuitive, harder for developers to discover</span>  </li>
   </ul>
-  <li><span style="font-size:0.8em" ><font color="yellow">Why fuzz UEFI?</font></span>  </li>
+  <li><span style="font-size:0.9em" ><font color="yellow"><b>Why fuzz UEFI?</b></font></span>  </li>
   <ul style="list-style-type:disc">
     <li><span style="font-size:0.8em" >Find security issues early</span>  </li>
     <ul style="list-style-type:disc">
@@ -140,21 +140,22 @@ Note:
   </ul>
  </ul>
 
- Note:
+Note:
  
 ---?image=/assets/images/slides/Slide150.JPG
 @title[Symbolic Execution  (S2E)– SMM Example]
 <p align="right"><span class="gold" ><b>Symbolic Execution  (S2E)– SMM Example</b></span></p>
-<div class="left2">
-<ul style="list-style-type:none">
+<br>
+<div class="left1">
+<ul style="list-style-type:disc">
   <li><span style="font-size:0.8em" >Searching for SMM security vulnerabilities </span> </li>
   <li><span style="font-size:0.8em" >Symbolic execution generates test cases that cover the computation tree of the handler and induce vulnerabilities. </span> </li>
   <li><span style="font-size:0.8em" >Those test cases are replayed in Simics which detects illegal accesses and SMM callouts. (e.g. read memory outside SMRAM) </span> </li>
 </ul>
 <br>
-<span style="font-size:0.5em" >Symbolic execution for BIOS security <a href="https://www.usenix.org/system/files/conference/woot15/woot15-paper-bazhaniuk.pdf">woot15-paper-bazhaniuk PDF </a> </span>
+<span style="font-size:0.5em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Symbolic execution for BIOS security<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.usenix.org/system/files/conference/woot15/woot15-paper-bazhaniuk.pdf">woot15-paper-bazhaniuk PDF </a> </span>
 </div>
-<div class="right2">
+<div class="right1">
 <span style="font-size:0.8em" > &nbsp;</span> 
 </div>
 
@@ -189,6 +190,7 @@ Note:
 ---
 @title[Excite Benefits]
 <p align="right"><span class="gold" ><b>Excite Benefits</b></span></p>
+<br>
 <ul style="list-style-type:none">
   <li><span style="font-size:0.8em" ><b>Extend fuzzing beyond interface level </b></span>  </li>
   <ul style="list-style-type:disc">
@@ -198,7 +200,9 @@ Note:
   </ul>
   <li><span style="font-size:0.8em" ><b>Quantify code coverage reporting </b></span>  </li>
 </ul>
-<span style="font-size:0.5em" >Resource: <a href="https://firmware.intel.com/content/smi-transfer-monitor-stm ">STM-SMI Transfer Monitor </a></span>
+<br>
+<br>
+<span style="font-size:0.5em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource: <a href="https://firmware.intel.com/content/smi-transfer-monitor-stm ">STM-SMI Transfer Monitor </a></span>
 
 Note:
 
@@ -241,7 +245,10 @@ Note:
  
 ---?image=/assets/images/slides/Slide156.JPG
 @title[Raising the Bar for Platform Security]
-<p align="right"><span class="gold" ><b>Raising the Bar for Platform Security</b></span></p>
+<p align="center"><span class="gold" ><b>Raising the Bar for Platform Security</b></span></p>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -266,6 +273,7 @@ Note:
 ---?image=/assets/images/slides/Slide158.JPG
 @title[What is CHIPSEC?]
 <p align="center"><span class="gold" ><b>What is CHIPSEC?</b></span></p>
+<br>
 <div class="left2">
 <ul style="list-style-type:none">
   <li><span style="font-size:0.8em" ><font color="yellow"><b>Framework for Platform Security Assessment</b></font></span>  </li>
@@ -275,8 +283,8 @@ Note:
   </ul>
   <li><span style="font-size:0.8em" ><font color="yellow"><b>Open Source (GPLv2 License)</b></font></span>  </li>
   <ul style="list-style-type:disc">
-    <li><span style="font-size:0.7em" >Released in 2014 – @fa[github gp-bullet-gold]<span style="font-size:0.7em"><a href="https://github.com/chipsec/chipsec "> https://github.com/chipsec/chipsec </a></span></span>  </li>
-    <li><span style="font-size:0.7em" >Currently active community</span>  </li>
+    <li><span style="font-size:0.7em" >Released in 2014 – @fa[github gp-bullet-white]<span style="font-size:0.7em"><a href="https://github.com/chipsec/chipsec "> https://github.com/chipsec/chipsec </a></span></span>  </li>
+    <li><span style="font-size:0.7em" >Currently active community</span>  </li><br>
     <li><span style="font-size:0.7em" >Top referring sites: </span><span style="font-size:0.6em" >Google, Github, <a href="">pcworld.com</a>, 
 	<a href="">community.spiceworks.com</a>,
 	<a href="">anonhq.com</a>, Twitter, <a href="">securingtomorrow.mcafee.com</a>,
@@ -304,7 +312,9 @@ Note:
  
 ---?image=/assets/images/slides/Slide158_1.JPG
 @title[Example Chipsec Check - SPI Controller LOCK]
+<br>
 <p align="center"><span class="gold" ><b>Example Chipsec Check - SPI Controller LOCK</b></span></p>
+<br>
 <ul style="list-style-type:disc">
   <li><span style="font-size:0.8em" ><font color="cyan">FLOCKDN – Reg that Locks critical SPI controller registers</font></span>  </li>
   <ul style="list-style-type:disc">
@@ -334,7 +344,9 @@ Note:
 
 ---?image=/assets/images/slides/Slide158_1.JPG
 @title[Sample Issue Discovered]
+<br>
 <p align="center"><span class="gold" ><b>Sample Issue Discovered</b></span></p>
+<br>
 <span style="font-size:01.0em" ><font color="cyan">Is BIOS correctly protected?</font></span>
 <br>
 ```
@@ -353,7 +365,7 @@ Note:
     [15] FLOCKDN          = 0 << Flash Configuration Lock-Down
 	[-] FAILED: SPI Flash Controller configuration is not locked
 ```
-<span style="font-size:0.8em" ><font color="red">`[-] FAILED: SPI Flash Controller configuration is not locked`</font></span><br>
+<span style="background-color: #101010"><span style="font-size:0.7em" ><font color="red">`[-] FAILED: SPI Flash Controller configuration is not locked`</font></span></span><br>
 
 Note:
 - The CHIPSEC Test chipsec.modules.common.spi_lock
@@ -364,7 +376,7 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide158_1.JPG
+---
 @title[Known Threats and Chipsec modules]
 <p align="center"><span class="gold" ><b>Known Threats and Chipsec modules</b></span></p>
 <table border="1" width="100%">
@@ -412,6 +424,7 @@ Source: https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Asse
 
 ---?image=/assets/images/slides/Slide158_1.JPG
 @title[CHIPSEC Modules ]
+<br>
 <p align="center"><span class="gold" ><b>CHIPSEC Modules </b></span></p>
 <span style="font-size:0.9em" >Modules encapsulate the main functionality of CHIPSEC:</span> 
 <ol>
@@ -432,6 +445,7 @@ Here are some more Details about CHIPSEC
 
 ---?image=/assets/images/slides/Slide158_1.JPG
 @title[CHIPSEC Modules ]
+<br>
 <p align="center"><span class="gold" ><b>CHIPSEC Modules </b></span></p>
 <span style="font-size:0.9em" >Modules encapsulate the main functionality of CHIPSEC:</span> 
 <ul>
