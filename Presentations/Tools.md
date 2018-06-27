@@ -383,6 +383,7 @@ Note:
 ---?image=/assets/images/slides/Slide158_1.JPG
 @title[Known Threats and Chipsec modules]
 <p align="center"><span class="gold" ><b>Known Threats and Chipsec modules</b></span></p>
+<div {line-height: 80%; }
 <table id="recTable">
 	<tr>
 		<td bgcolor="#0071c5"><span style="font-size:0.75em" >Issue</span></td>
@@ -453,7 +454,7 @@ Note:
 		<td bgcolor="#829acc"><span style="font-size:0.56em" >See <a href="https://github.com/chipsec/chipsec">https://github.com/chipsec/chipsec </a> </span></td>
 	</tr>
 </table>
-
+</div>
 Note:
 Source: https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Assessment%20wCHIPSEC-csw14-final.pdf
 
