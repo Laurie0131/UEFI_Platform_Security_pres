@@ -386,9 +386,9 @@ Note:
 
 <table id="recTable">
 	<tr>
-		<td bgcolor="#0071c5"><span style="font-size:0.75em" >Issue</span></td>
-		<td bgcolor="#0071c5"><span style="font-size:0.75em" >CHIPSEC Module</span></td>
-		<td bgcolor="#0071c5"><span style="font-size:0.75em" >References</span></td>
+		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>Issue</span></b></td>
+		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>CHIPSEC Module</b></span></td>
+		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>References</b></span></td>
 	</tr>
 	<tr>
 		<td bgcolor="#121212"><span style="font-size:0.56em" >SMRAM Locking &nbsp;</span></td>
@@ -401,57 +401,57 @@ Note:
 		<td bgcolor="#323232"><span style="font-size:0.56em" ><a href="http://www.slideshare.net/endrazine/defcon-16-bypassing-preboot-authentication-passwords-by-instrumenting-the-bios-keyboard-buffer-practical-low-level-attacks-against-x86-preboot-authentication-software">DEFCON 16 </a> </span></td>
 	</tr>
 	<tr>
-		<td bgcolor="#829acc"><p style="line-height:40%"><span style="font-size:0.56em" >SMRR Configuration </span></p></td>
-		<td bgcolor="#829acc"><span style="font-size:0.56em" >common.smrr </span></td>
-		<td bgcolor="#829acc"><span style="font-size:0.56em" ><a href="http://www.invisiblethingslab.com/resources/misc09/smm_cache_fun.pdf">ITL 2009 </a> , 
+		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" >SMRR Configuration </span></p></td>
+		<td bgcolor="#121212"><span style="font-size:0.56em" >common.smrr </span></td>
+		<td bgcolor="#121212"><span style="font-size:0.56em" ><a href="http://www.invisiblethingslab.com/resources/misc09/smm_cache_fun.pdf">ITL 2009 </a> , 
 		<a href="http://cansecwest.com/csw09/csw09-duflot.pdf">CanSecWest 2009 </a> </span></td>
 	</tr>
 	<tr>
-		<td bgcolor="#324578"><span style="font-size:0.56em" >BIOS Protection </span></td>
-		<td bgcolor="#324578"><span style="font-size:0.56em" >common.bios_wp </span></td>
-		<td bgcolor="#324578"><p style="line-height:40%"><span style="font-size:0.56em" ><a href="http://www.blackhat.com/presentations/bh-usa-09/WOJTCZUK/BHUSA09-Wojtczuk-AtkIntelBios-SLIDES.pdf">BlackHat USA 2009 </a>,  
+		<td bgcolor="#323232"><span style="font-size:0.56em" >BIOS Protection </span></td>
+		<td bgcolor="#323232"><span style="font-size:0.56em" >common.bios_wp </span></td>
+		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" ><a href="http://www.blackhat.com/presentations/bh-usa-09/WOJTCZUK/BHUSA09-Wojtczuk-AtkIntelBios-SLIDES.pdf">BlackHat USA 2009 </a>,  
 		<a href="https://www.blackhat.com/us-13/briefings.html">CanSecWest 2013 </a>, 
 		<a href="https://www.blackhat.com/us-13/briefings.html">Black Hat 2013 </a>, 
 		<a href="http://www.nosuchcon.org/talks/D2_01_Butterworth_BIOS_Chronomancy.pdf">NoSuchCon 2013 </a>, </span></p></td>
 	</tr>
 	<tr>
-		<td bgcolor="#829acc"><p style="line-height:40%"><span style="font-size:0.56em" >SPI Controller Locking </span></p></td>
-		<td bgcolor="#829acc"><span style="font-size:0.56em" >common.spi_lock </span></td>
-		<td bgcolor="#829acc"><span style="font-size:0.56em" ><a href="http://www.flashrom.org/">Flashrom </a>, 
+		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" >SPI Controller Locking </span></p></td>
+		<td bgcolor="#121212"><span style="font-size:0.56em" >common.spi_lock </span></td>
+		<td bgcolor="#121212"><span style="font-size:0.56em" ><a href="http://www.flashrom.org/">Flashrom </a>, 
 		<a href="http://www.mitre.org/capabilities/cybersecurity/overview/cybersecurity-blog/copernicus-question-your-assumptions-about">Copernicus </a> </span></td>
 	</tr>
 	<tr>
-		<td bgcolor="#324578"><span style="font-size:0.56em" >BIOS Interface Locking </span></td>
-		<td bgcolor="#324578"><span style="font-size:0.56em" >common.bios_ts </span></td>
-		<td bgcolor="#324578"><span style="font-size:0.56em" ><a href="http://powerofcommunity.net/poc2007/sunbing.pdf">PoC 2007 </a> </span></td>
+		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" >BIOS Interface Locking </span></p></td>
+		<td bgcolor="#323232"><span style="font-size:0.56em" >common.bios_ts </span></td>
+		<td bgcolor="#323232"><span style="font-size:0.56em" ><a href="http://powerofcommunity.net/poc2007/sunbing.pdf">PoC 2007 </a> </span></td>
 	</tr>
 	<tr>
-		<td bgcolor="#829acc"><span style="font-size:0.56em" >Secure Boot variables with keys and configuration are protected </span></td>
-		<td bgcolor="#829acc"><span style="font-size:0.56em" >common.secureboot.variables </span></td>
-		<td bgcolor="#829acc"><span style="font-size:0.56em" ><a href="http://uefi.org/">UEFI 2.4 Spec  </a>,
+		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" >Secure Boot variables with keys and configuration are protected </span></p></td>
+		<td bgcolor="#121212"><span style="font-size:0.56em" >common.secureboot.variables </span></td>
+		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" ><a href="http://uefi.org/">UEFI 2.4 Spec  </a>,
 		  All Your Boot Are Belong To Us ( <a href="https://cansecwest.com/slides/2014/AllYourBoot_csw14-intel-final.pdf">here </a> & 
-		  <a href="https://cansecwest.com/slides/2014/AllYourBoot_csw14-mitre-final.pdf">here </a>) </span></td>
+		  <a href="https://cansecwest.com/slides/2014/AllYourBoot_csw14-mitre-final.pdf">here </a>) </span></p></td>
 	</tr>
 	<tr>
-		<td bgcolor="#324578"><span style="font-size:0.56em" >Memory remapping attack </span></td>
-		<td bgcolor="#324578"><span style="font-size:0.56em" >remap </span></td>
-		<td bgcolor="#324578"><span style="font-size:0.56em" ><a href="http://www.invisiblethingslab.com/resources/bh08/part2-full.pdf">Preventing and Detecting Xen Hypervisor Subversions </a> </span></td>
+		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" >Memory remapping attack </span></p></td>
+		<td bgcolor="#323232"><span style="font-size:0.56em" >remap </span></td>
+		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" ><a href="http://www.invisiblethingslab.com/resources/bh08/part2-full.pdf">Preventing and Detecting Xen Hypervisor Subversions </a> </span></p></td>
 	</tr>
 	<tr>
-		<td bgcolor="#829acc"><span style="font-size:0.56em" >DMA attack against SMRAM </span></td>
-		<td bgcolor="#829acc"><span style="font-size:0.56em" >smm_dma </span></td>
-		<td bgcolor="#829acc"><span style="font-size:0.56em" ><a href="http://www.ssi.gouv.fr/archive/fr/sciences/fichiers/lti/pacsec2007-duflot-papier.pdf">Programmed I/O accesses: a threat to VMM? </a>, 
-		<a href="http://www.ssi.gouv.fr/uploads/IMG/pdf/IT_Defense_2010_final.pdf">System Management Mode Design and Security Issues </a></span></td>
+		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" >DMA attack against SMRAM </span></p></td>
+		<td bgcolor="#121212"><span style="font-size:0.56em" >smm_dma </span></td>
+		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" ><a href="http://www.ssi.gouv.fr/archive/fr/sciences/fichiers/lti/pacsec2007-duflot-papier.pdf">Programmed I/O accesses: a threat to VMM? </a>, 
+		<a href="http://www.ssi.gouv.fr/uploads/IMG/pdf/IT_Defense_2010_final.pdf">System Management Mode Design and Security Issues </a></span></p></td>
 	</tr>
 	<tr>
-		<td bgcolor="#324578"><span style="font-size:0.56em" >SMI suppression attack </span></td>
-		<td bgcolor="#324578"><span style="font-size:0.56em" >common.bios_smi </span></td>
-		<td bgcolor="#324578"><span style="font-size:0.56em" ><a href="https://www.hackinparis.com/sites/hackinparis.com/files/JohnButterworth.pdf">Setup for Failure: Defeating Secure Boot </a> </span></td>
+		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" >SMI suppression attack </span></p></td>
+		<td bgcolor="#323232"><span style="font-size:0.56em" >common.bios_smi </span></td>
+		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" ><a href="https://www.hackinparis.com/sites/hackinparis.com/files/JohnButterworth.pdf">Setup for Failure: Defeating Secure Boot </a> </span></p></td>
 	</tr>
 	<tr>
-		<td bgcolor="#829acc"><span style="font-size:0.56em" >ETC . . .   </span></td>
-		<td bgcolor="#829acc"><span style="font-size:0.56em" > </span></td>
-		<td bgcolor="#829acc"><span style="font-size:0.56em" >See <a href="https://github.com/chipsec/chipsec">https://github.com/chipsec/chipsec </a> </span></td>
+		<td bgcolor="#121212"><span style="font-size:0.56em" >ETC . . .   </span></td>
+		<td bgcolor="#121212"><span style="font-size:0.56em" > </span></td>
+		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" >See <a href="https://github.com/chipsec/chipsec">https://github.com/chipsec/chipsec </a> </span></p></td>
 	</tr>
 </table>
 
