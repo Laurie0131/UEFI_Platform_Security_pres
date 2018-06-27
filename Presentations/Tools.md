@@ -390,34 +390,59 @@ Note:
 		<td bgcolor="#0071c5"><span style="font-size:0.75em" >References</span></td>
 	</tr>
 	<tr>
-		<td><span style="font-size:0.6em" >SMRAM Locking &nbsp;</span></td>
-		<td><span style="font-size:0.6em" >common.smm&nbsp;</span></td>
-		<td><span style="font-size:0.6em" ><a href="http://www.ssi.gouv.fr/archive/fr/sciences/fichiers/lti/cansecwest2006-duflot.pdf">CanSecWest 2006</a>&nbsp;</span></td>
+		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" >SMRAM Locking &nbsp;</span></td>
+		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" >common.smm&nbsp;</span></td>
+		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" ><a href="http://www.ssi.gouv.fr/archive/fr/sciences/fichiers/lti/cansecwest2006-duflot.pdf">CanSecWest 2006</a>&nbsp;</span></td>
 	</tr>
 	<tr>
-		<td>2&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
 	</tr>
 	<tr>
-		<td>3&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
 	</tr>
 	<tr>
-		<td>4&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
 	</tr>
 	<tr>
-		<td>5&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
 	</tr>
 	<tr>
-		<td>6&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
+	</tr>
+	<tr>
+		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
+	</tr>
+	<tr>
+		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
+	</tr>
+	<tr>
+		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
+	</tr>
+	<tr>
+		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#E7EBF5"><span style="font-size:0.6em" > </span></td>
+	</tr>
+	<tr>
+		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
+		<td bgcolor="#CBD5EA"><span style="font-size:0.6em" > </span></td>
 	</tr>
 </table>
 
