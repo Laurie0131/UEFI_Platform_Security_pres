@@ -774,7 +774,7 @@ Note:
 <br>
 <br>
 <br>
-<p align="right"><span style="font-size:0.5em" ><a href="http://www.intelsecurity.com/advanced-threat-research/content/AttackingHypervisorsViaFirmware_bhusa15_dc23.pdf">Source</a>: Attacking Hypervisors via Firmware and Hardware</span></p>
+<p style="line-height:40%" align="right"><span style="font-size:0.5em" ><a href="http://www.intelsecurity.com/advanced-threat-research/content/AttackingHypervisorsViaFirmware_bhusa15_dc23.pdf">Source</a>: Attacking Hypervisors via Firmware and Hardware</span></p>
 
 Note:
 
@@ -831,7 +831,7 @@ Note:
 ---?image=/assets/images/slides/Slide40.JPG
 @title[Unfettered Access to Hardware - DRAM ]
 <p align="right"><span class="gold" ><b>Unfettered Access to Hardware - DRAM</b></span></p>
-<p align="right"><span style="font-size:0.5em" ><a href="http://www.syssec-project.eu/media/page-media/23/syssec2011-s1.4-sang.pdf">Source</a> :I/O Attacks in <br>Intel-PC Architecture ...</span></p>
+<p style="line-height:40%" align="right"><span style="font-size:0.5em" ><a href="http://www.syssec-project.eu/media/page-media/23/syssec2011-s1.4-sang.pdf">Source</a> :I/O Attacks in <br>Intel-PC Architecture ...</span></p>
 
 
 Note:
