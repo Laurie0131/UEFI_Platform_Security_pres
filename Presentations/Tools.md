@@ -459,6 +459,52 @@ Note:
 Source: https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Assessment%20wCHIPSEC-csw14-final.pdf
 
 
++++?image=/assets/images/slides/Slide158_1.JPG
+<!-- .slide: data-background-transition="none" -->
+<!-- .slide: data-transition="none" -->@title[Known Threats and Chipsec modules]
+<p align="center"><span class="gold" ><b>Known Threats and Chipsec modules</b></span></p>
+
+<table id="recTable">
+	<tr>
+		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>Issue</span></b></td>
+		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>CHIPSEC Module</b></span></td>
+		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>References</b></span></td>
+	</tr>
+	<tr>
+		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" >BIOS Interface Locking </span></p></td>
+		<td bgcolor="#323232"><span style="font-size:0.56em" >common.bios_ts </span></td>
+		<td bgcolor="#323232"><span style="font-size:0.56em" ><a href="http://powerofcommunity.net/poc2007/sunbing.pdf">PoC 2007 </a> </span></td>
+	</tr>
+	<tr>
+		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" >Secure Boot variables with keys and configuration are protected </span></p></td>
+		<td bgcolor="#121212"><span style="font-size:0.56em" >common.secureboot.variables </span></td>
+		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" ><a href="http://uefi.org/">UEFI 2.4 Spec  </a>,
+		  All Your Boot Are Belong To Us ( <a href="https://cansecwest.com/slides/2014/AllYourBoot_csw14-intel-final.pdf">here </a> & 
+		  <a href="https://cansecwest.com/slides/2014/AllYourBoot_csw14-mitre-final.pdf">here </a>) </span></p></td>
+	</tr>
+	<tr>
+		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" >Memory remapping attack </span></p></td>
+		<td bgcolor="#323232"><span style="font-size:0.56em" >remap </span></td>
+		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" ><a href="http://www.invisiblethingslab.com/resources/bh08/part2-full.pdf">Preventing and Detecting Xen Hypervisor Subversions </a> </span></p></td>
+	</tr>
+	<tr>
+		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" >DMA attack against SMRAM </span></p></td>
+		<td bgcolor="#121212"><span style="font-size:0.56em" >smm_dma </span></td>
+		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" ><a href="http://www.ssi.gouv.fr/archive/fr/sciences/fichiers/lti/pacsec2007-duflot-papier.pdf">Programmed I/O accesses: a threat to VMM? </a>, 
+		<a href="http://www.ssi.gouv.fr/uploads/IMG/pdf/IT_Defense_2010_final.pdf">System Management Mode Design and Security Issues </a></span></p></td>
+	</tr>
+	<tr>
+		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" >SMI suppression attack </span></p></td>
+		<td bgcolor="#323232"><span style="font-size:0.56em" >common.bios_smi </span></td>
+		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" ><a href="https://www.hackinparis.com/sites/hackinparis.com/files/JohnButterworth.pdf">Setup for Failure: Defeating Secure Boot </a> </span></p></td>
+	</tr>
+	<tr>
+		<td bgcolor="#121212"><span style="font-size:0.56em" >ETC . . .   </span></td>
+		<td bgcolor="#121212"><span style="font-size:0.56em" > </span></td>
+		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" >See <a href="https://github.com/chipsec/chipsec">https://github.com/chipsec/chipsec </a> </span></p></td>
+	</tr>
+
+</table>
 
 ---?image=/assets/images/slides/Slide158_1.JPG
 @title[CHIPSEC Modules ]
