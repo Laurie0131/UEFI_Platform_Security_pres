@@ -153,6 +153,9 @@ Note:
   <li><span style="font-size:0.8em" >Those test cases are replayed in Simics which detects illegal accesses and SMM callouts. (e.g. read memory outside SMRAM) </span> </li>
 </ul>
 <br>
+<br>
+<br>
+
 <span style="font-size:0.5em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Symbolic execution for BIOS security<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.usenix.org/system/files/conference/woot15/woot15-paper-bazhaniuk.pdf">woot15-paper-bazhaniuk PDF </a> </span>
 </div>
 <div class="right2">
@@ -196,10 +199,11 @@ Note:
   <ul style="list-style-type:disc">
     <li><span style="font-size:0.8em" >UEFI code (SMM, STM, UEFI PE modules) accessible to AFL/CRETE, Pin, gdb. </span>  </li>
     <li><span style="font-size:0.8em" >Record/analyze code flow, call trace, memory access data  </span>  </li>
-    <li><span style="font-size:0.8em" >Individual functions accessible, new inputs created, can test different flows</span>  </li>
+    <li><span style="font-size:0.8em" >Individual functions accessible, new inputs created, can test different flows</span>  </li><br>
   </ul>
   <li><span style="font-size:0.9em" ><b>Quantify code coverage reporting </b></span>  </li>
 </ul>
+<br>
 <br>
 <br>
 <span style="font-size:0.5em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource: <a href="https://firmware.intel.com/content/smi-transfer-monitor-stm ">STM-SMI Transfer Monitor </a></span>
