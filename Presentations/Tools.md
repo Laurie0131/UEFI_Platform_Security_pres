@@ -146,7 +146,7 @@ Note:
 @title[Symbolic Execution  (S2E)– SMM Example]
 <p align="right"><span class="gold" ><b>Symbolic Execution  (S2E)– SMM Example</b></span></p>
 <br>
-<div class="left1">
+<div class="left2">
 <ul style="list-style-type:disc">
   <li><span style="font-size:0.8em" >Searching for SMM security vulnerabilities </span> </li>
   <li><span style="font-size:0.8em" >Symbolic execution generates test cases that cover the computation tree of the handler and induce vulnerabilities. </span> </li>
@@ -155,7 +155,7 @@ Note:
 <br>
 <span style="font-size:0.5em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Symbolic execution for BIOS security<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.usenix.org/system/files/conference/woot15/woot15-paper-bazhaniuk.pdf">woot15-paper-bazhaniuk PDF </a> </span>
 </div>
-<div class="right1">
+<div class="right2">
 <span style="font-size:0.8em" > &nbsp;</span> 
 </div>
 
@@ -192,13 +192,13 @@ Note:
 <p align="right"><span class="gold" ><b>Excite Benefits</b></span></p>
 <br>
 <ul style="list-style-type:none">
-  <li><span style="font-size:0.8em" ><b>Extend fuzzing beyond interface level </b></span>  </li>
+  <li><span style="font-size:0.9em" ><b>Extend fuzzing beyond interface level </b></span>  </li>
   <ul style="list-style-type:disc">
     <li><span style="font-size:0.8em" >UEFI code (SMM, STM, UEFI PE modules) accessible to AFL/CRETE, Pin, gdb. </span>  </li>
     <li><span style="font-size:0.8em" >Record/analyze code flow, call trace, memory access data  </span>  </li>
     <li><span style="font-size:0.8em" >Individual functions accessible, new inputs created, can test different flows</span>  </li>
   </ul>
-  <li><span style="font-size:0.8em" ><b>Quantify code coverage reporting </b></span>  </li>
+  <li><span style="font-size:0.9em" ><b>Quantify code coverage reporting </b></span>  </li>
 </ul>
 <br>
 <br>
