@@ -507,6 +507,36 @@ Source: https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Asse
 
 </table>
 
+Note:
+
++++?image=/assets/images/slides/Slide158_1.JPG
+<!-- .slide: data-background-transition="none" -->
+<!-- .slide: data-transition="none" -->
+@title[Known Threats and Chipsec modules]
+<p align="center"><span class="gold" ><b>Known Threats and Chipsec modules</b></span></p>
+
+<table id="recTable">
+	<tr>
+		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>Issue</span></b></td>
+		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>CHIPSEC Module</b></span></td>
+		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>References</b></span></td>
+	</tr>
+	<tr>
+		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" >SMI suppression attack </span></p></td>
+		<td bgcolor="#323232"><span style="font-size:0.56em" >common.bios_smi </span></td>
+		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" ><a href="https://www.hackinparis.com/sites/hackinparis.com/files/JohnButterworth.pdf">Setup for Failure: Defeating Secure Boot </a> </span></p></td>
+	</tr>
+	<tr>
+		<td bgcolor="#121212"><span style="font-size:0.56em" >ETC . . .   </span></td>
+		<td bgcolor="#121212"><span style="font-size:0.56em" > </span></td>
+		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" >See <a href="https://github.com/chipsec/chipsec">https://github.com/chipsec/chipsec </a> </span></p></td>
+	</tr>
+
+</table>
+
+Note:
+
+
 ---?image=/assets/images/slides/Slide158_1.JPG
 @title[CHIPSEC Modules ]
 <br>
