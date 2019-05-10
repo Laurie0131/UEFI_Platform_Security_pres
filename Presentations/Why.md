@@ -149,9 +149,11 @@ Firmware needs to be done correctly from the get -go
 @snap[north-west span-40 ]
 <br>
 <p style="line-height:50%" ><br>&nbsp;<br></p>
-<p align="center" style="line-height:60%">@color[#ff0000](<b>Without</b>) <span style="font-size:0.9em"><br>&nbsp;</span></p>
+<p align="center" style="line-height:60%"><span style="font-size:01.1em">@color[#ff0000](<b>Without</b>) </span><span style="font-size:0.9em"><br>&nbsp;</span></p>
 <br>
+
 @snapend
+
 
 
 @snap[north-east span-40 ]
@@ -164,10 +166,37 @@ Firmware needs to be done correctly from the get -go
 @snap[north-east span-40 ]
 <br>
 <p style="line-height:50%" ><br>&nbsp;<br></p>
-<p align="center" style="line-height:60%">@color[#87E2A9](<b>With</b>) <span style="font-size:0.9em"><br>&nbsp;</span></p>
+<p align="center" style="line-height:60%"><span style="font-size:01.1em">@color[#87E2A9](<b>With</b>)</span> <span style="font-size:0.9em"><br>&nbsp;</span></p>
 <br>
 @snapend
- 
+
+
+@snap[north-west span-50 fragment]
+<br>
+<p style="line-height:50%" ><br>&nbsp;<br></p>
+<br>
+<p align="left" style="line-height:60%"><span style="font-size:0.9em">&nbsp;<br>
+<b>Possible corruped or distroyed data</b><br>
+&bull; &nbsp;&nbsp; BootKit virus - MBR Rootkits<br>
+&bull; &nbsp;&nbsp; Network boot attacks e.g. PXESPOILT<br>
+&bull; &nbsp;&nbsp; Code Injection Attacks
+</span></p>
+@snapend 
+
+
+@snap[north-east span-50 fragment]
+<br>
+<p style="line-height:50%" ><br>&nbsp;<br></p>
+<br>
+<p align="left" style="line-height:60%"><span style="font-size:0.9em">&nbsp;<br>
+&bull; &nbsp;&nbsp; Data integrity<br>
+&bull; &nbsp;&nbsp; Trusted boot to OS <br>
+&bull; &nbsp;&nbsp; Trusted drivers <br>
+&bull; &nbsp;&nbsp; Trusted  Applications
+</span></p>
+@snapend 
+
+
 
 Note:
 
