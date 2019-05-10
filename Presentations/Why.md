@@ -184,7 +184,7 @@ Firmware needs to be done correctly from the get -go
 <p align="left" style="line-height:80%"><span style="font-size:0.9em">&nbsp;<br>
 <b>Possible corruped or distroyed data</b><br><span style="font-size:0.9em">
 &bull; &nbsp;&nbsp; BootKit virus - MBR Rootkits<br>
-&bull; &nbsp;&nbsp; Network boot attacks e.g. PXESPOILT<br>
+&bull; &nbsp;&nbsp; Network boot attacks e.g. &nbsp;&nbsp;&nbsp;&nbsp;PXESPOILT<br>
 &bull; &nbsp;&nbsp; Code Injection Attacks</span>
 </span></p>
 @snapend 
