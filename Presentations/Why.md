@@ -137,8 +137,7 @@ Firmware needs to be done correctly from the get -go
 ---
 blank page
 
----
-blank page 2
+
 
 
 ---
