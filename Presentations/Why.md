@@ -151,7 +151,7 @@ Firmware needs to be done correctly from the get -go
 @box[bg-cream2 text-green rounded my-box-pad2  ](<p style="line-height:60%">@color[green](<b>With</b>)<span style="font-size:0.9em"><br>&nbsp;</span></p>)
 <br>
 @snapend
-
+ 
 
 
 Note:
