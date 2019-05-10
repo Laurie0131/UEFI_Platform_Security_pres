@@ -175,20 +175,20 @@ Firmware needs to be done correctly from the get -go
 <br>
 <p style="line-height:50%" ><br>&nbsp;<br></p>
 <br>
-<p align="left" style="line-height:60%"><span style="font-size:0.9em">&nbsp;<br>
-<b>Possible corruped or distroyed data</b><br>
+<p align="left" style="line-height:80%"><span style="font-size:0.9em">&nbsp;<br>
+<b>Possible corruped or distroyed data</b><br><span style="font-size:0.9em">
 &bull; &nbsp;&nbsp; BootKit virus - MBR Rootkits<br>
 &bull; &nbsp;&nbsp; Network boot attacks e.g. PXESPOILT<br>
-&bull; &nbsp;&nbsp; Code Injection Attacks
+&bull; &nbsp;&nbsp; Code Injection Attacks</span>
 </span></p>
 @snapend 
 
 
-@snap[north-east span-50 fragment]
+@snap[north-east span-45 fragment]
 <br>
 <p style="line-height:50%" ><br>&nbsp;<br></p>
 <br>
-<p align="left" style="line-height:60%"><span style="font-size:0.9em">&nbsp;<br>
+<p align="left" style="line-height:80%"><span style="font-size:0.9em">&nbsp;<br>
 &bull; &nbsp;&nbsp; Data integrity<br>
 &bull; &nbsp;&nbsp; Trusted boot to OS <br>
 &bull; &nbsp;&nbsp; Trusted drivers <br>
