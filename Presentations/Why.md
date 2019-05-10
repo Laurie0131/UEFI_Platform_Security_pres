@@ -135,8 +135,43 @@ Dog do-do - Protect from outside attacks. Protect from Things not intended to be
 Firmware needs to be done correctly from the get -go
 
 
+---
+@title[Why???    Security]
+<p align="right"><span class="gold" ><b>Why???    Security</b></span></p>
+@snap[north-west span-40 ]
+<br>
+<p style="line-height:50%" >&nbsp;</p>
+@box[bg-cream2 text-red rounded my-box-pad2  ](<p style="line-height:60%"><b>Without</b> <span style="font-size:0.9em"><br>&nbsp;</span></p>)
+<br>
+@snapend
+
+@snap[north-east span-40 ]
+<br>
+<p style="line-height:50%" >&nbsp;</p>
+@box[bg-cream2 text-green rounded my-box-pad2  ](<p style="line-height:60%"><b>With</b><span style="font-size:0.9em"><br>&nbsp;</span></p>)
+<br>
+@snapend
 
 
+
+Note:
+
+
+- Broken Bottle source CC : https://www.1001freedownloads.com/free-clipart/broken-bottle
+- Safe http://www.clipartkid.com/images/252/free-to-use-public-domain-miscellaneous-clip-art-page-41-jsgFX2-clipart.png
+
+- Network attacks 
+- Take the preboot execution environment and get bios-level access to the hardware from across the network, outside any control of the on-disk operating system. The pxesploit attack, releasing a new metasploit-based comprehensive PXE attack toolkit to deliver any payload reliably to many different operating systems. 
+
+- Code Injection Attacks
+- Important when firmware verifies digital signature
+- Depends on implementation flaw in a driver 
+- E.g. Stack overflow, heap overflow or incorrect signature verification
+- Secure Boot prevents running an unknown OS loader
+
+---
+
+### blank page
 
 ---?image=/assets/images/slides/Slide9.JPG
 <!-- .slide: data-transition="none" -->
