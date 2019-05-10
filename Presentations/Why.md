@@ -134,7 +134,8 @@ Dog do-do - Protect from outside attacks. Protect from Things not intended to be
 
 Firmware needs to be done correctly from the get -go
 
-
+---
+blank page
 ---
 @title[Why???    Security]
 <p align="right"><span class="gold" ><b>Why???    Security</b></span></p>
