@@ -256,6 +256,146 @@ Note:
 - Secure Boot prevents running an unknown OS loader
 
 
+---?image=/assets/images/slides/Slide4_2.JPG
+@title[UEFI Boot Flow]
+<p align="right"><span class="gold" >@size[01.1em](<b>Firmware is Everywhere</b>) </span></p>
+@snap[north-east span-50 ]
+<br>
+<p style="line-height:50%" >&nbsp;</p>
+@box[bg-navy text-white ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" ><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+<br>
+@snapend
+
+@snap[north-east span-50 fragment]
+<br>
+<p style="line-height:50%" ><br>&nbsp;</p>
+<ul style="list-style-type:disc; line-height:0.7;">
+ <li><span style="font-size:0.65em">GBe NIC, WiFi, Bluetooth, WiGig </span></li>
+ <li><span style="font-size:0.65em">Baseband (3G, LTE) Modems </span></li>
+ <li><span style="font-size:0.65em">Sensor Hubs </span></li>
+ <li><span style="font-size:0.65em">NFC, GPS Controllers </span></li>
+ <li><span style="font-size:0.65em">HDD/SSD </span></li>
+ <li><span style="font-size:0.65em">Keyboard  Embedded Controllers </span></li>
+ <li><span style="font-size:0.65em">Battery Gauge </span></li>
+ <li><span style="font-size:0.65em">Baseboard Management Controllers (BMC) </span></li>
+ <li><span style="font-size:0.65em">Graphics/Video </span></li>
+ <li><span style="font-size:0.65em">USB Thumb Drives, keyboards/mice </span></li>
+ <li><span style="font-size:0.65em">Chargers, adapters </span></li>
+ <li><span style="font-size:0.65em">TPM, security co-processors </span></li>
+ <li><span style="font-size:0.65em">Routers, network appliances </span></li>
+</ul>
+<br>
+@snapend
+
+@snap[north-west span-100 fragment]
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:20%" ><br><br>&nbsp;</p>
+<p style="line-height:20%"  align="left">
+&nbsp;&nbsp;&nbsp;@fa[haykal gp-bullet-magenta]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[haykal gp-bullet-magenta]<br>
+@fa[haykal gp-bullet-magenta]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[haykal gp-bullet-magenta]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[haykal gp-bullet-magenta]<br>
+<br>&nbsp;@fa[haykal gp-bullet-magenta]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[haykal gp-bullet-magenta]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[haykal gp-bullet-magenta]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[haykal gp-bullet-magenta]<br><br>
+&nbsp;&nbsp;@fa[haykal gp-bullet-magenta]<br>
+</p>
+@snapend
+
+
+
+
+@snap[south-west span-45 fragment]
+<p align="right">@fa[haykal gp-bullet-magenta]</p>
+<p style="line-height:20%" ><br>&nbsp;</p>
+@snapend
+
+@snap[south-east span-50 fragment]
+@box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.8em; font-weight: bold;" >Main system firmware &lpar;BIOS, UEFI firmware, coreboot&rpar;<br>&nbsp;</span></p>)
+@snapend
+
+Note:
+### BLOCK Diagram of a Platform
+- We see that Firmware is everywher
+- GBe NIC, WiFi, Bluetooth, WiGig
+- Baseband (3G, LTE) Modems
+- Sensor Hubs
+- NFC, GPS Controllers
+- HDD/SSD
+- Keyboard and Embedded Controllers
+- Battery Gauge
+- Baseboard Management Controllers (BMC)
+- Graphics/Video
+- USB Thumb Drives, keyboards/mice
+- Chargers, adapters
+- TPM, security coprocessors
+- Routers, network appliances
+- Main system firmware (BIOS, UEFI firmware, coreboot)
+
+  GBe - Gigabit Network Interface controller
+  NFC   Near Field Communication
+  GPS	Global Positioning System
+  HDD/SSD Hard Drive - Solid State Drive
+  TPM    Trusted Platform Module
+
+Image source: http://www.tweaktown.com/reviews/7497/tyan-s7076-intel-c612-server-motherboard-review/index3.html
+
++++?image=/assets/images/slides/Slide4_2.JPG
+<!-- .slide: data-background-transition="none" -->
+<!-- .slide: data-transition="none" -->
+@title[UEFI Boot Flow]
+<p align="right"><span class="gold" >@size[01.1em](<b>Firmware is Everywhere</b>) </span></p>
+
+
+
+@snap[south-west span-50 ]
+<p align="right">@fa[haykal fa-2x gp-bullet-magenta]</p>
+@snapend
+
+@snap[south-east span-50 ]
+@box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.8em; font-weight: bold;" ><br>Main system firmware &lpar;BIOS, UEFI firmware, coreboot&rpar;<br><br>&nbsp;</span></p>)
+<br>
+<br>
+<br>
+<br>
+<br>
+@snapend
+
+Note:
+### BLOCK Diagram of a Platform
+- We see that Firmware is everywher
+- GBe NIC, WiFi, Bluetooth, WiGig
+- Baseband (3G, LTE) Modems
+- Sensor Hubs
+- NFC, GPS Controllers
+- HDD/SSD
+- Keyboard and Embedded Controllers
+- Battery Gauge
+- Baseboard Management Controllers (BMC)
+- Graphics/Video
+- USB Thumb Drives, keyboards/mice
+- Chargers, adapters
+- TPM, security coprocessors
+- Routers, network appliances
+- Main system firmware (BIOS, UEFI firmware, coreboot)
+
+  GBe - Gigabit Network Interface controller
+  NFC   Near Field Communication
+  GPS	Global Positioning System
+  HDD/SSD Hard Drive - Solid State Drive
+  TPM    Trusted Platform Module
+
+Image source: http://www.tweaktown.com/reviews/7497/tyan-s7076-intel-c612-server-motherboard-review/index3.html
+
+
+
+
+---
+
+#### blank page
 
 ---?image=/assets/images/slides/Slide15.JPG
 <!-- .slide: data-transition="none" -->
