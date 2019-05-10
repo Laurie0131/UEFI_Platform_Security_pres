@@ -134,10 +134,6 @@ Dog do-do - Protect from outside attacks. Protect from Things not intended to be
 
 Firmware needs to be done correctly from the get -go
 
----
-blank page
-
-
 
 
 ---
