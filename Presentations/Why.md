@@ -294,14 +294,14 @@ Note:
 <br>
 <p style="line-height:20%" ><br><br>&nbsp;</p>
 <p style="line-height:20%"  align="left">
-&nbsp;&nbsp;&nbsp;@fa[bomb gp-bullet-magenta]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[bomb gp-bullet-magenta]<br>
-@fa[bomb gp-bullet-magenta]<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[bomb gp-bullet-magenta]<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[bomb gp-bullet-magenta]<br>
-<br>&nbsp;@fa[bomb gp-bullet-magenta]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[bomb gp-bullet-magenta]<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[bomb gp-bullet-magenta]<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[bomb gp-bullet-magenta]<br><br>
-&nbsp;&nbsp;@fa[bomb gp-bullet-magenta]<br>
+&nbsp;&nbsp;&nbsp;@fa[splotch gp-bullet-magenta]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[splotch gp-bullet-magenta]<br>
+@fa[splotch gp-bullet-magenta]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[splotch gp-bullet-magenta]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[splotch gp-bullet-magenta]<br>
+<br>&nbsp;@fa[splotch gp-bullet-magenta]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[splotch gp-bullet-magenta]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[splotch gp-bullet-magenta]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[splotch gp-bullet-magenta]<br><br>
+&nbsp;&nbsp;@fa[splotch gp-bullet-magenta]<br>
 </p>
 @snapend
 
@@ -309,7 +309,7 @@ Note:
 
 
 @snap[south-west span-45 fragment]
-<p align="right">@fa[bomb gp-bullet-magenta]</p>
+<p align="right">@fa[splotch gp-bullet-magenta]</p>
 <p style="line-height:20%" ><br>&nbsp;</p>
 @snapend
 
@@ -352,7 +352,7 @@ Image source: http://www.tweaktown.com/reviews/7497/tyan-s7076-intel-c612-server
 
 
 @snap[south-west span-50 ]
-<p align="right">@fa[bomb fa-2x gp-bullet-magenta]</p>
+<p align="right">@fa[splotch fa-2x gp-bullet-magenta]</p>
 @snapend
 
 @snap[south-east span-50 ]
