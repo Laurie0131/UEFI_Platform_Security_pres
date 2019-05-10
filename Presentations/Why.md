@@ -141,14 +141,14 @@ Firmware needs to be done correctly from the get -go
 @snap[north-west span-40 ]
 <br>
 <p style="line-height:50%" >&nbsp;</p>
-@box[bg-cream2 text-black rounded my-box-pad2  ](<p style="line-height:60%">@color[red](<b>Without</b>) <span style="font-size:0.9em"><br>&nbsp;</span></p>)
+@box[bg-cream2 text-black rounded my-box-pad2  ](<p style="line-height:60%">@color[#ff0000](<b>Without</b>) <span style="font-size:0.9em"><br>&nbsp;</span></p>)
 <br>
 @snapend
 
 @snap[north-east span-40 ]
 <br>
 <p style="line-height:50%" >&nbsp;</p>
-@box[bg-cream2 text-green rounded my-box-pad2  ](<p style="line-height:60%">@color[green](<b>With</b>)<span style="font-size:0.9em"><br>&nbsp;</span></p>)
+@box[bg-cream2 text-green rounded my-box-pad2  ](<p style="line-height:60%">@color[lt_green2](<b>With</b>)<span style="font-size:0.9em"><br>&nbsp;</span></p>)
 <br>
 @snapend
  
