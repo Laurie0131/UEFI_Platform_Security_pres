@@ -182,7 +182,7 @@ Firmware needs to be done correctly from the get -go
 <p style="line-height:50%" ><br>&nbsp;<br></p>
 <br>
 <p align="left" style="line-height:80%"><span style="font-size:0.9em">&nbsp;<br>
-<b>Possible corruped or distroyed data</b><br><span style="font-size:0.9em">
+<b>Possible corruped or distroyed data</b><br><span style="font-size:0.7em">
 &bull; &nbsp;&nbsp; BootKit virus - MBR Rootkits<br>
 &bull; &nbsp;&nbsp; Network boot attacks e.g. &nbsp;&nbsp;&nbsp;&nbsp;PXESPOILT<br>
 &bull; &nbsp;&nbsp; Code Injection Attacks</span>
