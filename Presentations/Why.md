@@ -148,8 +148,8 @@ blank page
 
 @snap[north-west span-40 ]
 <br>
-<p style="line-height:50%" >&nbsp;</p>
-<p align="center" style="line-height:60%">@color[#A20000](<b>Without</b>) <span style="font-size:0.9em"><br>&nbsp;</span></p>
+<p style="line-height:50%" >&nbsp;<br></p>
+<p align="center" style="line-height:60%">@color[#ff0000](<b>Without</b>) <span style="font-size:0.9em"><br>&nbsp;</span></p>
 <br>
 @snapend
 
@@ -163,8 +163,8 @@ blank page
  
 @snap[north-east span-40 ]
 <br>
-<p style="line-height:50%" >&nbsp;</p>
-<p align="center" style="line-height:60%">@color[#A8ff60](<b>With</b>) <span style="font-size:0.9em"><br>&nbsp;</span></p>
+<p style="line-height:50%" >&nbsp;<br></p>
+<p align="center" style="line-height:60%">@color[#87E2A9](<b>With</b>) <span style="font-size:0.9em"><br>&nbsp;</span></p>
 <br>
 @snapend
  
