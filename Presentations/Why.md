@@ -1039,15 +1039,6 @@ Note:
 @snapend
 
 Note:
- 
----
-blank page after
----
-blank page before 
-### page
-### another line
-
-another page
 
 
 
