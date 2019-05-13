@@ -135,14 +135,6 @@ Dog do-do - Protect from outside attacks. Protect from Things not intended to be
 Firmware needs to be done correctly from the get -go
 
 ---
-  
-###  blank page 
-
----
-  
-###  blank page 2
-
----
 @title[Why???    Security]
 <p align="right"><span class="gold" >@size[01.1em](<b>Why???    Security</b>)</span></p>
 @snap[north-west span-40 ]
@@ -184,10 +176,15 @@ Firmware needs to be done correctly from the get -go
 <p align="left" style="line-height:80%"><span style="font-size:0.9em">&nbsp;<br>
 <b>Possible corruped or distroyed data</b><br><span style="font-size:0.7em">
 &bull; &nbsp;&nbsp; BootKit virus - MBR Rootkits<br>
-&bull; &nbsp;&nbsp; Network boot attacks e.g. &nbsp;&nbsp;&nbsp;&nbsp;PXESPOILT<br>
+&bull; &nbsp;&nbsp; Network boot attacks e.g. &nbsp;&nbsp;PXESPOILT<br>
 &bull; &nbsp;&nbsp; Code Injection Attacks</span>
 </span></p>
 @snapend 
+
+@snap[south-west span-30 fragment]
+![broken-bottle](/assets/images/broken_bottle.png)
+@snapend 
+
 
 
 @snap[north-east span-45 fragment]
@@ -202,8 +199,13 @@ Firmware needs to be done correctly from the get -go
 </span></p>
 @snapend 
 
-
-
+@snap[south span-25 fragment ]
+![safe](/assets/images/safe.png)
+@snapend
+@snap[south-east span-30 fragment ]
+![CIA](/assets/images/CIA.png)
+<br>
+@snapend
 Note:
 
 
@@ -219,126 +221,6 @@ Note:
 - E.g. Stack overflow, heap overflow or incorrect signature verification
 - Secure Boot prevents running an unknown OS loader
 
----
-
-### blank page
-
----?image=/assets/images/slides/Slide9.JPG
-<!-- .slide: data-transition="none" -->
-@title[Why???    Security]
-<p align="right"><span class="gold" ><b>Why???    Security</b></span></p>
-
-Note:
-
-
-- Broken Bottle source CC : https://www.1001freedownloads.com/free-clipart/broken-bottle
-- Safe http://www.clipartkid.com/images/252/free-to-use-public-domain-miscellaneous-clip-art-page-41-jsgFX2-clipart.png
-
-- Network attacks 
-- Take the preboot execution environment and get bios-level access to the hardware from across the network, outside any control of the on-disk operating system. The pxesploit attack, releasing a new metasploit-based comprehensive PXE attack toolkit to deliver any payload reliably to many different operating systems. 
-
-- Code Injection Attacks
-- Important when firmware verifies digital signature
-- Depends on implementation flaw in a driver 
-- E.g. Stack overflow, heap overflow or incorrect signature verification
-- Secure Boot prevents running an unknown OS loader
-
-
-
-+++?image=/assets/images/slides/Slide10.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-
-@title[Why???    Security 02]
-<p align="right"><span class="gold" ><b>Why???    Security</b></span></p>
-
-Note:
-
-
-- Broken Bottle source CC : https://www.1001freedownloads.com/free-clipart/broken-bottle
-- Safe http://www.clipartkid.com/images/252/free-to-use-public-domain-miscellaneous-clip-art-page-41-jsgFX2-clipart.png
-
-- Network attacks 
-- Take the preboot execution environment and get bios-level access to the hardware from across the network, outside any control of the on-disk operating system. The pxesploit attack, releasing a new metasploit-based comprehensive PXE attack toolkit to deliver any payload reliably to many different operating systems. 
-
-- Code Injection Attacks
-- Important when firmware verifies digital signature
-- Depends on implementation flaw in a driver 
-- E.g. Stack overflow, heap overflow or incorrect signature verification
-- Secure Boot prevents running an unknown OS loader
-
-
-
-
-+++?image=/assets/images/slides/Slide11.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-
-@title[Why???    Security 03]
-<p align="right"><span class="gold" ><b>Why???    Security</b></span></p>
-
-Note:
-
-
-- Broken Bottle source CC : https://www.1001freedownloads.com/free-clipart/broken-bottle
-- Safe http://www.clipartkid.com/images/252/free-to-use-public-domain-miscellaneous-clip-art-page-41-jsgFX2-clipart.png
-
-- Network attacks 
-- Take the preboot execution environment and get bios-level access to the hardware from across the network, outside any control of the on-disk operating system. The pxesploit attack, releasing a new metasploit-based comprehensive PXE attack toolkit to deliver any payload reliably to many different operating systems. 
-
-- Code Injection Attacks
-- Important when firmware verifies digital signature
-- Depends on implementation flaw in a driver 
-- E.g. Stack overflow, heap overflow or incorrect signature verification
-- Secure Boot prevents running an unknown OS loader
-
-
-
-+++?image=/assets/images/slides/Slide12.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-
-@title[Why???    Security 04]
-<p align="right"><span class="gold" ><b>Why???    Security</b></span></p>
-
-Note:
-
-
-- Broken Bottle source CC : https://www.1001freedownloads.com/free-clipart/broken-bottle
-- Safe http://www.clipartkid.com/images/252/free-to-use-public-domain-miscellaneous-clip-art-page-41-jsgFX2-clipart.png
-
-- Network attacks 
-- Take the preboot execution environment and get bios-level access to the hardware from across the network, outside any control of the on-disk operating system. The pxesploit attack, releasing a new metasploit-based comprehensive PXE attack toolkit to deliver any payload reliably to many different operating systems. 
-
-- Code Injection Attacks
-- Important when firmware verifies digital signature
-- Depends on implementation flaw in a driver 
-- E.g. Stack overflow, heap overflow or incorrect signature verification
-- Secure Boot prevents running an unknown OS loader
-
-
-
-+++?image=/assets/images/slides/Slide13.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-
-@title[Why???    Security 05]
-<p align="right"><span class="gold" ><b>Why???    Security</b></span></p>
-
-Note:
-
-
-- Broken Bottle source CC : https://www.1001freedownloads.com/free-clipart/broken-bottle
-- Safe http://www.clipartkid.com/images/252/free-to-use-public-domain-miscellaneous-clip-art-page-41-jsgFX2-clipart.png
-
-- Network attacks 
-- Take the preboot execution environment and get bios-level access to the hardware from across the network, outside any control of the on-disk operating system. The pxesploit attack, releasing a new metasploit-based comprehensive PXE attack toolkit to deliver any payload reliably to many different operating systems. 
-
-- Code Injection Attacks
-- Important when firmware verifies digital signature
-- Depends on implementation flaw in a driver 
-- E.g. Stack overflow, heap overflow or incorrect signature verification
-- Secure Boot prevents running an unknown OS loader
 
 
 ---?image=/assets/images/slides/Slide4_2.JPG
@@ -477,7 +359,16 @@ Image source: http://www.tweaktown.com/reviews/7497/tyan-s7076-intel-c612-server
 
 
 
+---?image=/assets/images/slides/Slide11.JPG
+@title[Where is UEFI Firmware]
+<p align="right"><span class="gold" ><b>@size[1.1em](Where is UEFI Firmware?)</b></span></p>
 
+Note:
+https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1 
+UEFI open platforms_Vincent.ppt slide 12  - CanSecWest 2015 -  Refrences [6]: reference # [6] Slide 12 of PPT
+
+SOFTWARE STACK
+Specific examples
 
 
 ---?image=/assets/images/slides/Slide25.JPG
@@ -528,12 +419,64 @@ Note:
 
 - Computrace is software built into program laptops that were purchased as part of MCLA's Laptop Initiative. In the event your laptop is stolen, the Computrace software tracks the stolen computer and provides local police with the information they need to get it back.
 
- 
 
-
----?image=/assets/images/slides/Slide27.JPG
+---?image=/assets/images/slides/Slide13_1.JPG
 @title[Why Attack Firmware?]
 <p align="center"><span class="gold" ><b>Why Attack Firmware?</b></span></p>
+
+@snap[south-east span-30 ]
+<p align="left" style="line-height:90%"><span style="font-size:01.10em" ><b>Firmware Attack Methods</b> </span></p>
+<p style="line-height:50%"><span style="font-size:0.7em" > <br>&nbsp;</span></p>
+<br>
+<br>
+@snapend
+
+@snap[north-west span-30 fragment]
+<br>
+<br>
+<br>
+@box[bg-royal text-white  waved  my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>Extreme<br> persistence</b></span><br><br>&nbsp;</p>)
+@snapend
+
+@snap[north-west span-30 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:50%"><span style="font-size:0.7em" > <br><br>&nbsp;</span></p>
+@box[bg-royal text-white waved my-box-pad2 ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>Stealth</b></span><br><br><br>&nbsp;</p>)
+@snapend
+
+@snap[south-west span-30 fragment]
+@box[bg-royal text-white waved my-box-pad2 ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>Bypass software <br>&lpar;OS or VMM&rpar; based security</b></span><br>&nbsp;</p>)
+
+@snapend
+
+@snap[north span-30 fragment]
+<br>
+<br>
+<br>
+@box[bg-royal text-white waved my-box-pad2 ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>Unfettered acess to hardware</b></span><br><br>&nbsp;</p>)
+@snapend
+
+
+
+@snap[north span-30 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:50%"><span style="font-size:0.7em" > <br><br>&nbsp;</span></p>
+@box[bg-royal text-white  waved my-box-pad2 ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>OS<br>independence</b></span><br><br>&nbsp;</p>)
+@snapend
+
+
+
+@snap[south span-30 fragment]
+@box[bg-royal text-white waved my-box-pad2 ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>Making the system unbootable&lpar;bricking&rpar;</span></b><br><br>&nbsp;</p>)
+@snapend
 
 Note:
 - Brick 
@@ -546,11 +489,22 @@ Note:
 - There are examples in the real world about attacks in each of these categories 
 
 
-
-
----?image=/assets/images/slides/Slide29.JPG
+---?image=/assets/images/slides/Slide14_1.JPG
 @title[Extreme Persistence]
 ### <p align="right"><span class="gold" ><b>Extreme Persistence</b></span></p>
+@snap[north-west span-80]
+<br>
+<br>
+<br>
+<p style="line-height:80%"><span style="font-size:0.8em" ><br>
+&bull;&nbsp;&nbsp;System firmware rootkit <br>&nbsp;&nbsp;&nbsp;&nbsp;(in SMM or BIOS/UEFI)<br>
+&bull;&nbsp;&nbsp;Replaces OS boot loader<br>&nbsp;&nbsp;&nbsp;&nbsp;every boot<br>
+&bull;&nbsp;&nbsp;Which patches OS kernel<br>
+&bull;&nbsp;&nbsp;Firmware rootkit is protected by the <br>&nbsp;&nbsp;&nbsp;&nbsp;hardware write protections<br>
+&bull;&nbsp;&nbsp;Only way to fully remove the infection is to <br>&nbsp;&nbsp;&nbsp;&nbsp;physically re-flash the flash “ROM” chip<br>
+</span></p>
+@snapend
+
 
 Note:
 
@@ -579,10 +533,31 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide31.JPG
+---?image=/assets/images/slides/Slide15_2.JPG
 @title[Stealth]
 <br>
 #### <p align="left"><span class="gold" ><b>Stealth</b></span></p>
+@snap[north-west span-50]
+<br>
+<br>
+<br>
+<p style="line-height:95%"><span style="font-size:01.0em" >
+<b>Is Security Software Real Protection?</b>
+</span></p>
+<ul style="list-style-type:disc; line-height:0.75;">
+  <li><span style="font-size:0.8em" >Monitor of @color[red](<strike>ALL</strike>) firmware </span></li>
+  <li><span style="font-size:0.8em" >Reliably tell if infected <br><span style="font-size:0.8em" >@color[yellow]( False &vert; Positive) </span></span></li>
+  <li><span style="font-size:0.8em" >Devices use @color[yellow](<i>obscure</i> ) hardware</span></li>
+  <li><span style="font-size:0.8em" >Which @color[yellow](Tool) for which firmware infection? </span></li>
+   <ul style="list-style-type:disc; line-height:0.6;">
+      <li><span style="font-size:0.6em" >Rootkit in firmware of SSD, NIC, EC, BMC, modem, USB thumb-drive, battery gauge, charger</span></li>
+   </ul>
+</ul>
+
+
+@snapend
+
+
 
 Note:
 #### Is Security Software real protection?
@@ -895,17 +870,30 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide44.JPG
+
+---?image=/assets/images/slides/Slide22.JPG
 @title[Unfettered Access to Hardware – HDD/SSD ]
+<p align="right"><span class="gold" >@size[1.1em](<b>Unfettered Access to Hardware – HDD/SSD</b>)</span></p>
+@snap[north-west span-50]
 <br>
-<p align="right"><span class="gold" ><b>Unfettered Access to Hardware – HDD/SSD</b></span></p>
+<p style="line-height:70%"><span style="font-size:0.8em" ><br>
+Access to all data stored on HDD/SSD<br><br>
+Even when data is stored on self-encrypting drives (SED)
+</span></p>
+@snapend
+
+@snap[north-east span-50]
 <br>
+<p style="line-height:70%" align="left"><span style="font-size:0.8em" ><br>
+Cyber espionage groups utilize advanced form of malware that is very hard to remove once it's infected your PC. <br><br>
+Malware reprograms the hard drive’s firmware, creating hidden sectors <br><br>
+Destroying your hard drive is the only way to stop this super advanced malware
+</span></p>
 <br>
-<br>
-<br>
-<br>
-<br>
-<p style="line-height:50%" align="right"><span style="font-size:0.5em" ><a href="http://www.pcworld.com/article/2884952/equation-cyberspies-use-unrivaled-nsastyle-techniques-to-hit-iran-russia.html">Source</a> : PC World – Destroying your hard drive is the only<br> way to stop this super advanced malware</span></p>
+<p style="line-height:50%" align="right"><span style="font-size:0.5em" >
+<a href="http://www.pcworld.com/article/2884952/equation-cyberspies-use-unrivaled-nsastyle-techniques-to-hit-iran-russia.html">Source</a> 
+: PC World – Destroying your hard drive is the only way to stop this super advanced malware</span></p>
+@snapend
 
 Note:
 
@@ -927,10 +915,38 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide46.JPG
+---?image=/assets/images/slides/Slide23_1.JPG
 @title[Unfettered Access to Hardware – Etc. ]
-<p align="right"><span class="gold" ><b>Unfettered Access to Hardware – Etc.</b></span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Unfettered Access to Hardware – Etc.</b>)</span></p>
+@snap[north-east span-75]
 <br>
+<br>
+<p style="line-height:75%" align="left"><span style="font-size:0.8em" ><br>
+NIC, WiFi, baseband modem firmware <br>rootkits have direct access to network <br>communications<br><br><br>
+EC or BMC firmware rootkit has access <br>to platform management functions <br>(power, thermal, NIC, keystrokes)<br><br><br><br><br>
+Etcetera 
+</span></p>
+@snapend
+
+@snap[east span-40]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:30%" align="left"><span style="font-size:0.4em" ><br><br><br><br><br><br>
+EC –    embedded controllers <br>
+BMC – Baseboard Management Component
+</span></p>
+@snapend
 
 Note:
 
@@ -943,18 +959,27 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide48_1.JPG
+---?image=/assets/images/slides/Slide24_1.JPG
 @title[Making System Unbootable (Bricking) ]
-<p align="right"><span class="gold" ><b>Making System Unbootable (Bricking)</b></span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Making System Unbootable &lpar;Bricking&rpar;</b>)</span></p>
+@snap[north-east span-55]
 <br>
 <br>
 <br>
+<ul style="list-style-type:disc; line-height:0.8;">
+  <li><span style="font-size:0.8em" >Corrupt firmware or </span></li>
+  <li><span style="font-size:0.8em" >Corrupt cirtical configuration</span></li>
+  <li><span style="font-size:0.8em" >Stored in Flash "ROM" memeory</span></li>
+  <li><span style="font-size:0.8em" >Of a device which is critical for system boot to operate</span></li>
+</ul>
 <br>
-<br>
-<br>
-<br>
-<br>
-<p align="right"><span style="font-size:0.5em" ><a href="http://www.sophos.com/en-us/press-office/press-releases/1998/06/pr_uk_19980630cih.aspx">Source</a> : CIH virus, was first discovered in 1998</span></p>
+@snapend
+
+@snap[south-east span-40]
+<p style="line-height:40%" align="right"><span style="font-size:0.5em" ><a href="http://www.sophos.com/en-us/press-office/press-releases/1998/06/pr_uk_19980630cih.aspx">Source</a> : CIH virus, was first discovered<br> in 1998</span></p>
+<BR>
+@snapend
+
 
 Note:
 
@@ -971,22 +996,89 @@ Note:
 - Chernobyl areal view: http://crooksandliars.com/gordonskene/other-plans-gone-wrong-chernobyl-april
 
 
----?image=/assets/images/slides/Slide50.JPG
+
+
+
+
+---
 @title[Pre-Boot Threats ]
+<p align="right"><span class="gold" >@size[1.1em](<b>Pre-Boot Threats </b>)</span></p>
+<p style="line-height:60%" align="left"><span style="font-size:0.9em"><br><b>Summary Why Attack Firmware</b></span></p>
+@snap[north-east span-90 ]
 <br>
 <br>
-<p align="left"><span class="gold" ><b>Pre-Boot<br>Threats </b></span></p>
+<br>
+<br>
+<table id="recTable">
+	<tr class="fragment">
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Firmware Malware</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>UEFI Rootkits</b></span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Bootkits</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>SMM Rootkits</b></span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Device FW Malware</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>ACPI Rootkits</b></span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Option ROM Malware</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Evil Maid</b></span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>HVM<sup>1</sup> Rootkits &lpar;Blue Pill&rpar;</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>HW Trojans</b></span></p></td>
+	</tr>
+</table>
+
+@snap[south-east span-30]
+<p style="line-height:30%" align="left"><span style="font-size:0.4em" >
+<sup>1</sup>Hypervisor Virtual Machine (HVM)
+</span></p>
+@snapend
 
 Note:
+ 
+---
+blank page after
+---
+blank page before 
+### page
+### another line
+
+another page
 
 
----?image=/assets/images/slides/Slide52.JPG
+
+---
 @title[Summary - Platform Firmware Security – Why is it important? ]
-<p align="right"><span class="gold" ><b>Summary <br>Platform Firmware Security – Why is it important?</b></span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Summary <br></b>)<b>Platform Firmware Security – Why is it important?</b></span></p>
+@snap[north-west span-45]
 <br>
 <br>
 <br>
 <br>
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.7em">Why is platform firmware Security important<br>&nbsp;</span></p>)
+@snapend
+
+@snap[north span-20 ]
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:60%"><span style="font-size:01.9em">@fa[arrow-right gp-bullet-ltgreen]<br>&nbsp;</span></p>
+@snapend
+
+@snap[north-east span-45 fragment]
+<br>
+<br>
+<br>
+<br>
+@box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.7em">Prevent low level attacks that could "brick" the system<br>&nbsp;</span></p>)
+@snapend
+
+
 
 Note:
 There are several Firmware attack methods – and cyber hackers will be continually finding more. We need to be able to recognize where Firmware is vulnerable to help prevent attacks on firmware.<br>In Summary: This section is the “WHY WE ARE HERE”
