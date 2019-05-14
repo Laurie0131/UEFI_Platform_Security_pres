@@ -922,7 +922,7 @@ Note:
 - Few big assets vs lots of focused assets
 
 
----?image=/assets/images/slides/Slide77.JPG
+---
 @title[Threat Model with Examples]
 <p align="right"><span class="gold" ><b>Threat Model with Examples</b></span></p>
 
