@@ -624,8 +624,7 @@ Note:
 <p style="line-height:40%"><span style="font-size:0.6em"><br><br><br>&nbsp;</span></p>
 <p style="line-height:40%"><span style="font-size:0.6em"><br><br><br>&nbsp;</span></p>
 <p style="line-height:40%"><span style="font-size:0.6em"><br><br><br>&nbsp;</span></p>
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">Tools and resources on how to test firmware for security<br><br>&nbsp;
-</span></p>)
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">Tools and resources on how to test firmware for security<br><br>&nbsp;</span></p>)
 @snapend
 
 @snap[north span-20  fragment]
@@ -664,3 +663,7 @@ Note:
 ---
 <br>
 ### blank page
+
+- test 1
+- test 2
+- test 3
