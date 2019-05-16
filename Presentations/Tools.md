@@ -652,18 +652,7 @@ Note:
 
 
 Note:
-- BootGuard – Verfication
-- TxT – Measured
-- Combination of BootGuard, Txt, and UEFI Secure boot help mitigate some threats
+- Tools and resources on how to test firmware for security
+- Ongoing tools to validate security mechanism 
 
-- In addition NIST SP 800-147 Secure updates will help mitigate some threats
 
-- and don’t’ introduce a single bug in all of this, of course.  
-
----
-<br>
-### blank page
-
-- test 1
-- test 2
-- test 3
