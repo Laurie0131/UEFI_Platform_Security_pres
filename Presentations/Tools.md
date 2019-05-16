@@ -660,3 +660,7 @@ Note:
 - In addition NIST SP 800-147 Secure updates will help mitigate some threats
 
 - and don’t’ introduce a single bug in all of this, of course.  
+
+---
+<br>
+### blank page
