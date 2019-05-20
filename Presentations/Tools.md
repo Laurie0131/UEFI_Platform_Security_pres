@@ -575,15 +575,6 @@ Here are some more Details about CHIPSEC
 
 Note:
 
----?image=/assets/images/slides/Slide176.JPG
-@title[Summary 4 - Platform Firmware Security – Why is it important? ]
-<p align="right"><span class="gold" ><b>Summary <br>Platform Firmware Security – Why is it important?</b></span></p>
-<br>
-<br>
-<br>
-<br>
-
-Note:
 
 ---
 @title[Summary - Platform Firmware Security – Why is it important? - boot flow]
