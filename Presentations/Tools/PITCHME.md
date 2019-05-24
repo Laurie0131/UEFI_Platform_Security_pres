@@ -42,7 +42,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide173.JPG
 @title[Build a Security Mindset]
-<p align="right"><span class="gold" ><b>Build a Security Mindset</b></span></p>
+<p align="right"><span class="gold" >@size[1.1](<b>Build a Security Mindset</b>)</span></p>
 <br>
 <div class="left">
 <br>
@@ -70,7 +70,7 @@ Note:
 
 ---
 @title[What is Excite?]
-<p align="right"><span class="gold" ><b>What is Excite?</b></span></p>
+<p align="right"><span class="gold" >@size[1.1](<b>What is Excite?</b>)</span></p>
 <ul style="list-style-type:none">
   <li><span style="font-size:0.8em" ><font color="yellow">Goal</font></span>  </li>
   <ul style="list-style-type:disc">
@@ -93,6 +93,10 @@ Note:
  Pin – Intel tool to determine trace<br>
  CRETE -<a href="https://github.com/SVL-PSU/crete-dev"> github crete-dev</a> </span></p>
 </ul>
+
+@snap[south-east span-25]
+![excite](/assets/images/Excite.png)
+@snapend
 
 Note:
 
@@ -124,7 +128,7 @@ Note:
 
 ---
 @title[What is Fuzzing?]
-<p align="right"><span class="gold" ><b>What is Fuzzing?</b></span></p>
+<p align="right"><span class="gold" >@size[1.1](<b>What is Fuzzing?</b>)</span></p>
 <ul style="list-style-type:none">
   <li><span style="font-size:0.8em" >Technique of providing variety of invalid, unexpected, or random data as inputs to target code to try to make it misbehave </span>  </li>
   <ul style="list-style-type:disc">
@@ -144,7 +148,7 @@ Note:
  
 ---?image=/assets/images/slides/Slide150.JPG
 @title[Symbolic Execution  (S2E)– SMM Example]
-<p align="right"><span class="gold" ><b>Symbolic Execution  (S2E)– SMM Example</b></span></p>
+<p align="right"><span class="gold" >@size[1.1](<b>Symbolic Execution  (S2E)– SMM Example</b>)</span></p>
 <br>
 <div class="left2">
 <ul style="list-style-type:disc">
@@ -167,9 +171,16 @@ Note:
 - Given a snapshot of SMRAM, the base address of SMRAM, and the address of the variable interrupt handler in SMRAM, the tool uses S2E to run the symbolic execution engine to search for concrete examples of a call to the SMI interrupt handler that causes the handler to read memory outside of SMRAM
   
  
----?image=/assets/images/slides/Slide152.JPG
+---?image=/assets/images/slides/Slide91_1.JPG
 @title[Excite - Common Flow]
-<p align="right"><span class="gold" ><b>Excite - Common Flow</b></span></p>
+<p align="right"><span class="gold" >@size[1.1](<b>Excite - Common Flow</b>)</span></p>
+
+@snap[south-west span-100]
+<p style="line-height:30%"><span style="font-size:0.4em" >
+<sup>1.</sup>Selective Symbolic Execution ( S2E | CRETE)  <br>
+<sup>2.</sup><a href="http://lcamtuf.coredump.cx/afl/">American Fuzzy Lop (fuzzier)</a>
+</span></p>
+@snapend
 
 Note:
 - On the slide you can see Excite flow. Currently it works almost automatically. Source tree of BIOS is downloaded from repository, and we build it.  Then the BIOS is executed either on a live system or using Simics
@@ -192,7 +203,7 @@ Note:
 
 ---
 @title[Excite Benefits]
-<p align="right"><span class="gold" ><b>Excite Benefits</b></span></p>
+<p align="right"><span class="gold" >@size[1.1](<b>Excite Benefits</b>)</span></p>
 <br>
 <ul style="list-style-type:none">
   <li><span style="font-size:0.9em" ><b>Extend fuzzing beyond interface level </b></span>  </li>
@@ -206,7 +217,12 @@ Note:
 <br>
 <br>
 <br>
-<span style="font-size:0.5em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource: <a href="https://firmware.intel.com/content/smi-transfer-monitor-stm ">STM-SMI Transfer Monitor </a></span>
+<span style="font-size:0.4em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource: <a href="https://firmware.intel.com/content/smi-transfer-monitor-stm ">STM-SMI Transfer Monitor </a></span>
+
+@snap[south-east span-25]
+![excite](/assets/images/Excite.png)
+@snapend
+
 
 Note:
 
@@ -238,29 +254,65 @@ Note:
 - Open-source? TBD
 
 
-
 ---?image=assets/images/gitpitch-audience.jpg
 @title[Known Issue  Sub-section]
 <br><br><br><br><br><br><br>
 ### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Known Issue :</span>
 <span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tools for Testing Known Issue </span>
   
-
- 
----?image=/assets/images/slides/Slide156.JPG
+---
 @title[Raising the Bar for Platform Security]
-<p align="center"><span class="gold" ><b>Raising the Bar for Platform Security</b></span></p>
+<p align="center"><span class="gold" >@size[1.1](<b>Raising the Bar for Platform Security</b>)</span></p>
+@snap[north-east span-10 ]
+![chipsec-logo](/assets/images/chipsec_logo.png)
+</span></p>
+
+@snapend
+
+
+@snap[north-west span-30 fragment]
 <br>
 <br>
 <br>
+![NewAttacks](/assets/images/NewAttacks.png)
+</span></p>
+@snapend
+
+@snap[north span-30 fragment]
+<br>
+<br>
+
+<p style="line-height:30%"><span style="font-size:0.4em" ><br><br>
+</span></p>
+
+![TestModules](/assets/images/TestModules.png)
+</span></p>
+@snapend
+
+@snap[north-east span-25 fragment]
 <br>
 <br>
 <br>
+<p style="line-height:30%"><span style="font-size:0.4em" ><br><br>
+</span></p>
+
+![Riskprofile](/assets/images/Riskprofile.png)
+</span></p>
+@snapend
+
+@snap[south-west span-100 fragment]
+<p style="line-height:80%"><span style="font-size:0.95em" ><b>
+Empowering End-Users to Make a Risk Decision</b><br><br>
+</span></p>
 <br>
-<br>
-<br>
-<br>
-<span style="font-size:0.5em" >Source: <a href="https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Assessment%20wCHIPSEC-csw14-final.pdf">CHIPSEC-csw14 PDF </a></span>
+@snapend
+
+@snap[south-west span-100]
+<p style="line-height:30%"><span style="font-size:0.4em" >
+Source: <a href="https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Assessment%20wCHIPSEC-csw14-final.pdf">CHIPSEC-csw14 PDF </a>
+</span></p>
+@snapend
+ 
 
 Note:
 - Source: https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Assessment%20wCHIPSEC-csw14-final.pdf
@@ -275,9 +327,9 @@ Note:
 - Introducing CHIPSEC
 
  
----?image=/assets/images/slides/Slide158.JPG
+---?image=/assets/images/slides/Slide95_1.JPG
 @title[What is CHIPSEC?]
-<p align="center"><span class="gold" ><b>What is CHIPSEC?</b></span></p>
+<p align="center"><span class="gold" >@size[1.1](<b>What is CHIPSEC?</b>)</span></p>
 <div class="left2">
 <ul style="list-style-type:none">
   <li><span style="font-size:0.8em" ><font color="yellow"><b>Framework for Platform Security Assessment</b></font></span>  </li>
@@ -307,17 +359,33 @@ Note:
 - Think about how MSR and the Chipset is programed,  CHIPSEC can look for known miss- configurations and make a report 
 
  
----?image=/assets/images/slides/Slide160.JPG
+
+---?image=/assets/images/slides/SlideChipSec_logo.JPG
 @title[Chipsec Framework overview]
-<p align="center"><span class="gold" ><b>Chipsec Framework overview</b></span></p>
+<p align="center"><span class="gold" >@size[1.1](<b>Chipsec Framework overview</b>)</span></p>
+
+@snap[north span-85]
+<br>
+<br>
+<br>
+![Chipsec_diagram](/assets/images/Chipsec_diagram.png)
+@snapend
+
+@snap[south-west span-100]
+<p style="line-height:30%"><span style="font-size:0.4em" >
+Source: <a href="https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Assessment%20wCHIPSEC-csw14-final.pdf">Cansecwest 2014</a>
+</span></p>
+
+@snapend
 
 Note:
 
+
  
----?image=/assets/images/slides/Slide158_1.JPG
+---?image=/assets/images/slides/SlideChipSec_logo.JPG
 @title[Example Chipsec Check - SPI Controller LOCK]
 <br>
-<p align="center"><span class="gold" ><b>Example Chipsec Check - SPI Controller LOCK</b></span></p>
+<p align="center"><span class="gold" >@size[1.1](<b>Example Chipsec Check - SPI Controller LOCK</b>)</span></p>
 <br>
 <ul style="list-style-type:disc">
   <li><span style="font-size:0.8em" ><font color="cyan">FLOCKDN – Reg that Locks critical SPI controller registers</font></span>  </li>
@@ -346,10 +414,10 @@ Note:
 - For example FLOCKDN – Lock down REG that Locks critical SPI controller registers
 
 
----?image=/assets/images/slides/Slide158_1.JPG
+---?image=/assets/images/slides/SlideChipSec_logo.JPG
 @title[Sample Issue Discovered]
 <br>
-<p align="center"><span class="gold" ><b>Sample Issue Discovered</b></span></p>
+<p align="center"><span class="gold" >@size[1.1](<b>Sample Issue Discovered</b>)</span></p>
 <span style="font-size:01.0em" ><font color="cyan">Is BIOS correctly protected?</font></span>
 <br>
 ```
@@ -378,10 +446,9 @@ Note:
 - There are many other tests
 
 
-
----?image=/assets/images/slides/Slide158_1.JPG
+---?image=/assets/images/slides/SlideChipSec_logo2.JPG
 @title[Known Threats and Chipsec modules]
-<p align="center"><span class="gold" ><b>Known Threats and Chipsec modules</b></span></p>
+<p align="center"><span class="gold" >@size[1.1](<b>Known Threats and Chipsec modules</b>)</span></p>
 
 <table id="recTable">
 	<tr>
@@ -458,11 +525,11 @@ Note:
 Source: https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Assessment%20wCHIPSEC-csw14-final.pdf
 
 
-+++?image=/assets/images/slides/Slide158_1.JPG
++++?image=/assets/images/slides/SlideChipSec_logo2.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
-@title[Known Threats and Chipsec modules]
-<p align="center"><span class="gold" ><b>Known Threats and Chipsec modules</b></span></p>
+@title[Known Threats and Chipsec modules 02]
+<p align="center"><span class="gold" >@size[1.1](<b>Known Threats and Chipsec modules</b>)</span></p>
 
 <table id="recTable">
 	<tr>
@@ -508,11 +575,11 @@ Source: https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Asse
 
 Note:
 
-+++?image=/assets/images/slides/Slide158_1.JPG
++++?image=/assets/images/slides/SlideChipSec_logo2.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
-@title[Known Threats and Chipsec modules]
-<p align="center"><span class="gold" ><b>Known Threats and Chipsec modules</b></span></p>
+@title[Known Threats and Chipsec modules 03]
+<p align="center"><span class="gold" >@size[1.1](<b>Known Threats and Chipsec modules</b>)</span></p>
 
 <table id="recTable">
 	<tr>
@@ -536,10 +603,10 @@ Note:
 Note:
 
 
----?image=/assets/images/slides/Slide158_1.JPG
+---?image=/assets/images/slides/SlideChipSec_logo2.JPG
 @title[CHIPSEC Modules ]
 <br>
-<p align="center"><span class="gold" ><b>CHIPSEC Modules </b></span></p>
+<p align="center"><span class="gold" >@size[1.1](<b>CHIPSEC Modules </b>)</span></p>
 <span style="font-size:0.9em" >Modules encapsulate the main functionality of CHIPSEC:</span> 
 <ol>
   <li><span style="font-size:0.8em" >Tests for known vulnerabilities in firmware</span>  </li>
@@ -557,10 +624,10 @@ Note:
 Here are some more Details about CHIPSEC
 
 
----?image=/assets/images/slides/Slide158_1.JPG
+---?image=/assets/images/slides/SlideChipSec_logo2.JPG
 @title[CHIPSEC Modules ]
 <br>
-<p align="center"><span class="gold" ><b>CHIPSEC Modules </b></span></p>
+<p align="center"><span class="gold" >@size[1.1](<b>CHIPSEC Modules </b>)</span></p>
 <br>
 <ul>
   <li><span style="font-size:0.8em" >All modules reside in `chipsec/modules` directory</span>  </li>
@@ -575,6 +642,183 @@ Here are some more Details about CHIPSEC
 
 Note:
 
+
+
+---?image=assets/images/gitpitch-audience.jpg
+@title[HBFA  Sub-section]
+<br><br><br><br><br><br><br>
+<p style="line-height:80%"><span style="font-size:01.1em">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#e49436">Shift-Left Firmware Security Testing :</font></span></p>
+<span style="font-size:0.9em">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Host-based Firmware Analyzer (HBFA) </span>
+  
+---
+@title[Common Tools for Firmware Security Testing]
+<p align="right"><span class="gold" >@size[1.1](<b>Common Tools for Firmware Security Testing</b>)</span></p>
+
+<p style="line-height:80%"><span style="font-size:0.9em" ><br>
+<a href="">CHIPSEC</a>: open source framework for analyzing the security of platform firmware and hardware configuration at runtime, based on the 
+Unified Extensible Firmware Interface (<a href="">UEFI</a>) specification.
+<br><br>
+<a href="https://software.intel.com/en-us/blogs/2017/06/06/finding-bios-vulnerabilities-with-excite">Symbolic Execution and Virtual Platforms: Excite</a> project on Intel uses a combination of symbolic execution, fuzzing, and concrete testing to find 
+vulnerabilities in firmware running on Wind River* <a href="https://software.intel.com/en-us/blogs/2017/06/06/finding-bios-vulnerabilities-with-excite">Simics</a> virtual platforms.
+</span></p>
+<p style="line-height:70%"><span style="font-size:0.8em" ><br>
+<font color="yellow"><i>
+Great tools… but they’re based on integration testing, so issues are more expensive to detect and mitigate. 
+<u>Can we improve testing before integration?</u>
+</i></font>
+</span></p>
+
+Note:
+
+ 
+---?image=/assets/images/slides/Slide106_1.JPG
+@title[Shift Left – Design for Security Test (DFST)]
+<p align="right"><span class="gold" >@size[1.1](<b>Shift Left – Design for Security Test (DFST)</b>)</span></p>
+
+@snap[south span-85 fragment]
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.8em">How can we improve security test efficiency?<br>&nbsp;</span></p>)
+@snapend
+
+
+Note:
+
+As testing moves toward the release there is an increase to the cost
+
+How can we improve security test efficiency?
+
+---
+@title[Design for Security Test (DFST)]
+<p align="right"><span class="gold" >@size[1.1](<b>Design for Security Test (DFST)</b>)</span></p>
+<br>
+
+<p style="line-height:80%"><span style="font-size:0.9em" ><br><br>
+<i>&quot;Engineers should recognize that reducing risk is not an impossible task, even under financial and time constrains.<br><br>
+All it takes in many cases is a different perspective on the design problem.&quot;</i>
+</span></p>
+<p style="line-height:80%" align="right"><span style="font-size:0.7em" >
+  &hyphen;&hyphen; Mike Martin & Roland Schinizinger&nbsp;&nbsp;&nbsp;
+</span></p>
+
+
+---?image=/assets/images/slides/Slide108_1.JPG
+@title[Host-based Firmware Analyzer]
+<p align="right"><span class="gold" >@size[1.1](<b>Host-based Firmware Analyzer</b>)</span></p>
+
+<p style="line-height:80%"><span style="font-size:0.9em" ><br>
+Test for BIOS code under OS:  Pure software logic
+</span></p>
+
+@snap[north span-85 fragment]
+<br>
+<br>
+<br>
+<br>
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.8em">Benefit: @color[yellow](30X) faster than UEFI based running env(OVMF).<br>&nbsp;</span></p>)
+@snapend
+
+Note:
+
+---
+@title[Host-based Firmware Analyzer Architecture]
+<p align="right"><span class="gold" >@size[1.1](<b>Host-based Firmware Analyzer Architecture</b>)</span></p>
+
+@snap[north span-85 ]
+<br>
+<br>
+<br>
+![HBFA_FW](/assets/images/HostBasedFW_test.png)
+@snapend
+
+@snap[south span-90 fragment]
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:85%"><span style="font-size:0.8em">Implementing  testing UEFI Firmware under OS environment <br>&nbsp;</span></p>)
+@snapend
+
+Note:
+
+
+---?image=/assets/images/slides/Slide110_1.JPG
+@title[Host-based Firmware Analyzer]
+<p align="right"><span class="gold" >@size[1.1](<b>Host-based Firmware Analyzer</b>)</span></p>
+
+<p style="line-height:80%"><span style="font-size:0.9em" >
+<font color="cyan"><i>OS based environment utilizing best-in-class test tools</i></font>
+</span></p>
+
+@snap[north-west span-55]
+<br>
+<br>
+<br>
+<br>
+
+<ul style="list-style-type:none; line-height:0.7;">
+  <li><span style="font-size:0.65em" >GUI and command-line interfaces	 <br> &nbsp;</span> </li>
+  <li><span style="font-size:0.65em" >Fuzzing testing (AFL, libFuzzer, Peach)		<br>&nbsp;  </span> </li>
+  <li><span style="font-size:0.65em" >Symbolic execution (KLEE/STP)		<br>&nbsp;  </span> </li>
+  <li><span style="font-size:0.65em" >Address Sanitizer & Code Coverage		 <br>&nbsp; </span> </li>
+  <li><span style="font-size:0.65em" >Automated unit test execution	 <br>&nbsp; </span> </li>
+  <li><span style="font-size:0.65em" >Instrumentation methods for fault injection and trace	 <br>&nbsp; </span> </li>
+  <li><span style="font-size:0.65em" >FDatabase of unit test cases		<br>&nbsp;  </span> </li>
+</ul>
+@snapend
+
+---
+@title[Host-based Firmware Analyzer summary]
+<p align="right"><span class="gold" >@size[1.1](<b>HBFA - Summary</b>)</span></p>
+<p style="line-height:80%"><span style="font-size:0.9em" ><br>
+<font color="cyan">Host Based Firmware Analyzer (HBFA)</font>
+</span></p>
+<ul style="list-style-type:disc; line-height:0.8;">
+  <li><span style="font-size:0.7em" >Isolate test environment – run test under OS (like OS application)		  </span> </li>
+  <li><span style="font-size:0.7em" >Integrate with OS based fuzz/Symbolic tool, such as AFL, KLEE, Peach.		  </span> </li>
+  <li><span style="font-size:0.7em" >Provide an infrastructure to build Pure Software Logic function of BIOS.		  </span> </li>
+</ul>
+
+<p style="line-height:80%"><span style="font-size:0.9em" >
+<font color="cyan">Benefit</font> - Make it Easy for
+</span></p>
+<ul style="list-style-type:disc; line-height:0.8;">
+  <li><span style="font-size:0.7em" >Secure Fuzzy Test.		  </span> </li>
+  <li><span style="font-size:0.7em" >Test automation and case reuse.		  </span> </li>
+  <li><span style="font-size:0.7em" >Code Coverage , debugging with OS Debugger tool		  </span> </li>
+</ul>
+
+
+---
+@title[Host-based Firmware Analyzer Expectation]
+<p align="right"><span class="gold" >@size[1.1](<b>Expectation</b>)</span></p>
+<p style="line-height:80%"><span style="font-size:0.9em" ><br>
+<b>Developer:</b>
+</span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+  <li><span style="font-size:0.7em" >Easily enable fuzz test in unit test Phase.  </span> </li>
+</ul>
+
+<p style="line-height:80%"><span style="font-size:0.9em" >
+<b>Benefit</b>
+</span></p>
+<ul style="list-style-type:disc; line-height:0.8;">
+  <li><span style="font-size:0.7em" >Reduce the total cost of a project. </span> </li>
+  <li><span style="font-size:0.7em" >Help to detect and fix security issue quickly  </span> </li>
+  <li><span style="font-size:0.7em" >QA can focus on other security test. (eg, system level or cost much time to set up env)  </span> </li>
+</ul>
+
+<p style="line-height:70%"><span style="font-size:0.7em" >
+Release on <a href="https://www.tianocore.org">tianocore.org</a> wiki page for <a href="https://github.com/tianocore/tianocore.github.io/wiki/Host-Based-Firmware-Analyzer"> Host Based Firmware Analyzer(HBFA)</a>
+</span></p>
+
+---?image=/assets/images/slides/Slide104_1.JPG
+@title[EDK II Security White Paper list ]
+<p align="right"><span class="gold" >@size[1.1](<b>EDK II Security White Paper list </b>)</span></p>
+
+
+@snap[north-west span-45]
+<br>
+<br>
+<br>
+<p style="line-height:95%"><span style="font-size:0.9em" >
+List of helpful links and white papers based on Security with EDK II on wiki page: <a href="https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Security-White-Papers">Edk II Security White Papers</a>
+</span></p>
+@snapend
 
 ---
 @title[Summary - Platform Firmware Security – Why is it important? - boot flow]
@@ -646,14 +890,4 @@ Note:
 - Tools and resources on how to test firmware for security
 - Ongoing tools to validate security mechanism 
 
----
-<br>
-#### blank page
 
-1
-<br>
-2
-<br>
-3<br>
-4<br>
-x

@@ -52,13 +52,13 @@ Note:
  <li>@fa[certificate gp-bullet-ltgreen]<span style="font-size:0.9em">&nbsp;&nbsp;Tools and resources on how to test<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; firmware for security </span></li>
 </ul>
 
----?include=Presentations/Why.md
+---?include=Presentations/Why/PITCHME.md
 
----?include=Presentations/UEFI_Boot_Flow.md
+---?include=Presentations/UEFI_Boot_Flow/PITCHME.md
 
----?include=Presentations/SecurityTechnologies.md
+---?include=Presentations/SecurityTechnologies/PITCHME.md
 
----?include=Presentations/Tools.md
+---?include=Presentations/Tools/PITCHME.md
 
 ---  
 @title[Summary]
