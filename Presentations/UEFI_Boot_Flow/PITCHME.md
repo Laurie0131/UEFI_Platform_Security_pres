@@ -7,7 +7,7 @@
 Note:
   UEFI_boot_flow.md for UEFI / EDK II Training  UEFI boot flow with the TM
 
-  Copyright (c) 2018, Intel Corporation. All rights reserved.<BR>
+  Copyright (c) 2019, Intel Corporation. All rights reserved.<BR>
 
   Redistribution and use in source (original document form) and 'compiled'
   forms (converted to PDF, epub, HTML and other formats) with or without

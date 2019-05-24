@@ -6,7 +6,7 @@
 Note:
   SecurityTechnologies.md for UEFI / EDK II Training  Security technologies overview
 
-  Copyright (c) 2018, Intel Corporation. All rights reserved.<BR>
+  Copyright (c) 2019, Intel Corporation. All rights reserved.<BR>
 
   Redistribution and use in source (original document form) and 'compiled'
   forms (converted to PDF, epub, HTML and other formats) with or without
